@@ -1,0 +1,22 @@
+# TODO before release: update title/journal/DOI once the article is accepted,
+# and add the Zenodo DOI after archiving.
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+type: software
+title: "OSR11 — Kinetic Energy Trends and Eddy Saturation in the Southern Ocean"
+authors:
+  - family-names: "Martí-Solana"
+    given-names: "Cristina"
+    email: "cristinamarti2000@gmail.com"
+license: MIT
+repository-code: "https://github.com/<user>/<repo>"  # TODO
+# doi: 10.5281/zenodo.XXXXXXX  # TODO: Zenodo archive DOI
+preferred-citation:
+  type: article
+  title: "Kinetic Energy Trends and Eddy Saturation in the Southern Ocean"  # TODO: final title
+  authors:
+    - family-names: "Martí-Solana"
+      given-names: "Cristina"
+  journal: "TODO"
+  year: 2026
+  # doi: TODO
