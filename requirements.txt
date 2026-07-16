@@ -1,0 +1,25 @@
+# Core scientific stack
+numpy
+scipy
+pandas
+xarray
+netCDF4
+dask
+
+# Plotting
+matplotlib
+cartopy
+
+# Trend statistics (Theil-Sen + Modified Mann-Kendall, Yue-Wang)
+pymannkendall
+
+# Performance (used by front-detection utilities)
+numba
+
+# Data access (CMEMS altimetry download; needed for scripts/run_all_two_sat.py
+# and optional remote loading in notebook 01)
+copernicusmarine
+
+# Notebook execution
+jupyter
+ipykernel

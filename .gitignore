@@ -1,0 +1,20 @@
+.DS_Store
+**/.DS_Store
+
+# Environments
+.venv*/
+**/__pycache__/
+*.pyc
+
+# Local tooling config
+.claude/
+
+# Generated analysis artifacts (regenerate with scripts + notebooks)
+outputs/
+plots/
+
+# External repository (auto-cloned by scripts/extract_observed_drake_geostrophic_transport.py)
+external/
+
+# Notebook runtime artifacts
+**/.ipynb_checkpoints/
