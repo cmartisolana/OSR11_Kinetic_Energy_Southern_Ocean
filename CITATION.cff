@@ -3,17 +3,17 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
 type: software
-title: "OSR11 — Kinetic Energy Trends and Eddy Saturation in the Southern Ocean"
+title: "OSR11 — Kinetic Energy Variability and Eddy Saturation in the Southern Ocean"
 authors:
   - family-names: "Martí-Solana"
     given-names: "Cristina"
-    email: "cristinamarti2000@gmail.com"
+    email: "cmarti@imedea-uib-csic.es"
 license: MIT
-repository-code: "https://github.com/<user>/<repo>"  # TODO
-doi: 10.5281/zenodo.XXXXXXX  # TODO: Zenodo archive DOI
+repository-code: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"
+doi: https://doi.org/10.5281/zenodo.21485764
 preferred-citation:
   type: article
-  title: "Kinetic Energy Trends and Eddy Saturation in the Southern Ocean"  # TODO: final title
+  title: "Kinetic Energy Variability and Eddy Saturation in the Southern Ocean"
   authors:
     - family-names: "Martí-Solana"
       given-names: "Cristina"
