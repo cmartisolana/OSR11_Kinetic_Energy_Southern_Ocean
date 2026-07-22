@@ -1,22 +1,11 @@
-# TODO before release: update title/journal/DOI once the article is accepted,
-# and add the Zenodo DOI after archiving.
-cff-version: 1.2.0
-message: "If you use this code, please cite it as below."
-type: software
-title: "OSR11 — Kinetic Energy Variability and Eddy Saturation in the Southern Ocean"
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Martí-Solana"
-    given-names: "Cristina"
-    email: "cmarti@imedea-uib-csic.es"
-license: MIT
-repository-code: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"
-doi: https://doi.org/10.5281/zenodo.21485764
-preferred-citation:
-  type: article
-  title: "Kinetic Energy Variability and Eddy Saturation in the Southern Ocean"
-  authors:
-    - family-names: "Martí-Solana"
-      given-names: "Cristina"
-  journal: "TODO"
-  year: 2026
-  # doi: TODO
+- family-names: "Martí-Solana"
+  given-names: "Cristina"
+  orcid: "https://orcid.org/0009-0002-8276-7717"
+title: "Codes for "Kinetic Energy Variability and Eddy Saturation in the Southern Ocean""
+version: 1.0.0
+doi: 10.5281/zenodo.21485764
+date-released: 2026-07-22
+url: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"
