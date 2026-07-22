@@ -10,7 +10,7 @@ authors:
     email: "cristinamarti2000@gmail.com"
 license: MIT
 repository-code: "https://github.com/<user>/<repo>"  # TODO
-# doi: 10.5281/zenodo.XXXXXXX  # TODO: Zenodo archive DOI
+doi: 10.5281/zenodo.XXXXXXX  # TODO: Zenodo archive DOI
 preferred-citation:
   type: article
   title: "Kinetic Energy Trends and Eddy Saturation in the Southern Ocean"  # TODO: final title
