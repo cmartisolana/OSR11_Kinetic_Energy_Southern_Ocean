@@ -2,10 +2,7 @@
 
 [![DOI](https://img.shields.io/badge/doi-10.5281%2Fzenodo.21485764-blue)](https://doi.org/10.5281/zenodo.21485764) [![Version](https://img.shields.io/badge/version-v1.0.0-blue)](https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean/releases/tag/v1.0.0)
 
-Analysis of kinetic energy (KE), eddy kinetic energy (EKE), frontal positions,
-wind stress, and Drake Passage transport in the Southern Ocean, based on
-satellite altimetry. This repository contains all code needed to reproduce the
-figures of the main article and the supplementary material.
+Analysis of kinetic energy (KE), eddy kinetic energy (EKE), frontal positions and Drake Passage transport in the Southern Ocean, based on satellite altimetry. This repository contains all code needed to reproduce the figures of the main article and the supplementary material.
 
 ---
 
