@@ -1,0 +1,20 @@
+response,analysis,lag_yr,n,value,lo,hi,p_pointwise,env95_pointwise,p_lag_search,source
+KE,"detrended annual correlation, wind leading",0.0,22,-0.08,,,0.737,0.41,0.004,revision/outputs/f4e/f4e_results.csv [D2]
+KE,"detrended annual correlation, wind leading",1.0,22,0.61,,,0.001,0.41,0.004,revision/outputs/f4e/f4e_results.csv [D2]
+KE,"detrended annual correlation, wind leading",2.0,22,-0.07,,,0.765,0.42,0.004,revision/outputs/f4e/f4e_results.csv [D2]
+KE,"detrended annual correlation, wind leading",3.0,22,-0.04,,,0.852,0.42,0.004,revision/outputs/f4e/f4e_results.csv [D2]
+KE,"fractional-anomaly OLS coefficient (% per %), trends kept",1.0,21,0.49,0.06,0.79,0.018,,,revision/outputs/f4s/f4s_results.csv (value=elasticity; p for r=0.53)
+EKE,"detrended annual correlation, wind leading",0.0,22,-0.17,,,0.459,0.4,0.008,revision/outputs/f4e/f4e_results.csv [D2]
+EKE,"detrended annual correlation, wind leading",1.0,22,0.57,,,0.002,0.4,0.008,revision/outputs/f4e/f4e_results.csv [D2]
+EKE,"detrended annual correlation, wind leading",2.0,22,0.02,,,0.913,0.41,0.008,revision/outputs/f4e/f4e_results.csv [D2]
+EKE,"detrended annual correlation, wind leading",3.0,22,0.08,,,0.713,0.4,0.008,revision/outputs/f4e/f4e_results.csv [D2]
+EKE,"fractional-anomaly OLS coefficient (% per %), trends kept",1.0,21,0.91,0.2,1.49,0.015,,,revision/outputs/f4s/f4s_results.csv (value=elasticity; p for r=0.53)
+slope,"detrended annual correlation, wind leading",0.0,22,-0.05,,,0.852,0.39,0.711,revision/outputs/f4e/f4e_results.csv [D2]
+slope,"detrended annual correlation, wind leading",1.0,22,0.24,,,0.259,0.39,0.711,revision/outputs/f4e/f4e_results.csv [D2]
+slope,"detrended annual correlation, wind leading",2.0,22,-0.02,,,0.916,0.39,0.711,revision/outputs/f4e/f4e_results.csv [D2]
+slope,"detrended annual correlation, wind leading",3.0,22,0.11,,,0.65,0.42,0.711,revision/outputs/f4e/f4e_results.csv [D2]
+slope,"fractional-anomaly OLS coefficient (% per %), trends kept",1.0,21,0.09,-0.01,0.22,0.188,,,revision/outputs/f4s/f4s_results.csv (value=elasticity; p for r=0.36)
+wind,"trend 2004-2025, % per decade (monthly test)",,264,2.4,-0.8,5.5,0.146,,,revision/outputs/f4e/f4e_results.csv [D1]
+KE,"trend 2004-2025, % per decade (monthly test)",,264,5.2,3.0,7.5,0.003,,,revision/outputs/f4e/f4e_results.csv [D1]
+EKE,"trend 2004-2025, % per decade (monthly test)",,264,8.9,3.3,14.5,0.017,,,revision/outputs/f4e/f4e_results.csv [D1]
+slope,"trend 2004-2025, % per decade (monthly test)",,264,1.2,0.3,2.0,0.02,,,revision/outputs/f4e/f4e_results.csv [D1]

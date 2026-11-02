@@ -1,0 +1,3 @@
+series,period,n_years,mean_m2s,trend_m2s_per_decade,pct_per_decade,pct_lo,pct_hi,p,surrogates,source
+"Qs, full 121-point line, annual means",2001-2025,25,113400.0,725.0,0.64,-0.15,1.43,0.146,150,revision/plan1019/drake/out/dk40/dk40_net_trends.csv
+"Qs, full 121-point line, annual means",Oct 2005-Apr 2019,15,113200.0,2589.0,2.29,0.53,4.04,0.04,150,revision/plan1019/drake/out/dk40/dk40_net_trends.csv

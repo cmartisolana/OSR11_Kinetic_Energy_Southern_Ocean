@@ -1,0 +1,4 @@
+domain,n_bins,ratio_of_period_means_pct,anomaly_difference_pct_of_2001_2025_mean,source
+Upstream 86-68W,9,23.9,21.9,ratio: revision/plan1019/drake/dk8/dk8_along_acc_fronts_periods_allsat.csv (mean of 2-deg bin means per period); anomaly: revision/plan1019/drake/out/dk12/dk12_band_annual_allsat.csv
+Passage 68-58W,5,21.2,19.0,ratio: revision/plan1019/drake/dk8/dk8_along_acc_fronts_periods_allsat.csv (mean of 2-deg bin means per period); anomaly: revision/plan1019/drake/out/dk12/dk12_band_annual_allsat.csv
+Downstream 58-40W,9,11.6,11.0,ratio: revision/plan1019/drake/dk8/dk8_along_acc_fronts_periods_allsat.csv (mean of 2-deg bin means per period); anomaly: revision/plan1019/drake/out/dk12/dk12_band_annual_allsat.csv

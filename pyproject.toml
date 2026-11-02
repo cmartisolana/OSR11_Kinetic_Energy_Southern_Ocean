@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osr11"
+version = "2.0.0"
+description = "Analysis code for 'Observational constraints on eddy saturation in the Antarctic Circumpolar Current' (OSR11)"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Cristina Martí-Solana", email = "cmarti@imedea.uib-csic.es"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]

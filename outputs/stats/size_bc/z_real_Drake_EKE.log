@@ -1,0 +1,11 @@
+real_Drake_EKE true phi sum 0.75
+25 bc 0.08 sieve 0.08 phi_sum 0.683 bc 0.715
+50 bc 0.08 sieve 0.12 phi_sum 0.681 bc 0.712
+75 bc 0.093 sieve 0.147 phi_sum 0.687 bc 0.718
+100 bc 0.07 sieve 0.11 phi_sum 0.688 bc 0.721
+125 bc 0.072 sieve 0.104 phi_sum 0.684 bc 0.716
+/usr/local/lib/python3.13/dist-packages/pymannkendall/pymannkendall.py:99: RuntimeWarning: invalid value encountered in sqrt
+  z = (s - 1)/np.sqrt(var_s)
+150 bc 0.08 sieve 0.12 phi_sum 0.684 bc 0.716
+175 bc 0.086 sieve 0.12 phi_sum 0.688 bc 0.72
+200 bc 0.095 sieve 0.14 phi_sum 0.688 bc 0.72

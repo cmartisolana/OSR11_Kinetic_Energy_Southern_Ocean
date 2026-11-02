@@ -1,0 +1,130 @@
+       sector  var  lag_yr    version  elasticity  ci_lo  ci_hi     p    r2
+24        ACC  EKE       0        raw        0.43  -0.20   1.06  0.17  0.08
+25        ACC  EKE       0  detrended       -0.02  -0.36   0.32  0.89  0.00
+26        ACC  EKE       1        raw        0.73   0.23   1.23  0.01  0.23
+27        ACC  EKE       1  detrended        0.33   0.07   0.60  0.02  0.16
+28        ACC  EKE       2        raw        0.58  -0.08   1.24  0.08  0.15
+29        ACC  EKE       2  detrended        0.06  -0.41   0.53  0.79  0.00
+30        ACC   KE       0        raw        0.32  -0.08   0.72  0.11  0.13
+31        ACC   KE       0  detrended        0.05  -0.18   0.28  0.66  0.01
+32        ACC   KE       1        raw        0.41   0.13   0.68  0.01  0.20
+33        ACC   KE       1  detrended        0.17   0.01   0.32  0.04  0.12
+34        ACC   KE       2        raw        0.34   0.03   0.66  0.04  0.15
+35        ACC   KE       2  detrended        0.03  -0.14   0.21  0.69  0.00
+36        ACC  SPD       0        raw        0.16   0.02   0.29  0.03  0.19
+37        ACC  SPD       0  detrended        0.05  -0.05   0.14  0.30  0.06
+38        ACC  SPD       1        raw        0.09  -0.02   0.20  0.10  0.07
+39        ACC  SPD       1  detrended       -0.01  -0.07   0.06  0.83  0.00
+40        ACC  SPD       2        raw        0.11  -0.01   0.23  0.07  0.11
+41        ACC  SPD       2  detrended       -0.01  -0.09   0.07  0.76  0.00
+42        ACC    T       0        raw        0.17   0.04   0.29  0.01  0.30
+43        ACC    T       0  detrended        0.09   0.01   0.16  0.02  0.22
+44        ACC    T       1        raw        0.10   0.01   0.19  0.03  0.11
+45        ACC    T       1  detrended        0.02  -0.04   0.07  0.52  0.01
+46        ACC    T       2        raw        0.09  -0.02   0.20  0.11  0.11
+47        ACC    T       2  detrended       -0.01  -0.07   0.06  0.84  0.00
+72   Atlantic  EKE       0        raw        0.04  -0.35   0.42  0.85  0.00
+73   Atlantic  EKE       0  detrended        0.01  -0.24   0.26  0.92  0.00
+74   Atlantic  EKE       1        raw        0.37  -0.14   0.88  0.15  0.07
+75   Atlantic  EKE       1  detrended        0.37  -0.05   0.79  0.08  0.14
+76   Atlantic  EKE       2        raw        0.32  -0.28   0.93  0.28  0.06
+77   Atlantic  EKE       2  detrended        0.32  -0.18   0.82  0.20  0.11
+78   Atlantic   KE       0        raw       -0.02  -0.32   0.27  0.87  0.00
+79   Atlantic   KE       0  detrended       -0.04  -0.27   0.20  0.76  0.00
+80   Atlantic   KE       1        raw        0.14  -0.14   0.42  0.32  0.03
+81   Atlantic   KE       1  detrended        0.14  -0.10   0.38  0.25  0.05
+82   Atlantic   KE       2        raw        0.31   0.04   0.59  0.03  0.17
+83   Atlantic   KE       2  detrended        0.31   0.08   0.55  0.01  0.25
+84   Atlantic  SPD       0        raw       -0.00  -0.11   0.11  0.98  0.00
+85   Atlantic  SPD       0  detrended       -0.01  -0.09   0.08  0.88  0.00
+86   Atlantic  SPD       1        raw        0.00  -0.11   0.11  0.93  0.00
+87   Atlantic  SPD       1  detrended        0.00  -0.10   0.10  0.93  0.00
+88   Atlantic  SPD       2        raw        0.07  -0.03   0.17  0.16  0.06
+89   Atlantic  SPD       2  detrended        0.07  -0.02   0.16  0.13  0.10
+90   Atlantic    T       0        raw       -0.02  -0.14   0.11  0.79  0.00
+91   Atlantic    T       0  detrended       -0.02  -0.12   0.08  0.66  0.01
+92   Atlantic    T       1        raw        0.00  -0.13   0.14  0.97  0.00
+93   Atlantic    T       1  detrended        0.00  -0.13   0.13  0.97  0.00
+94   Atlantic    T       2        raw       -0.01  -0.09   0.06  0.73  0.00
+95   Atlantic    T       2  detrended       -0.01  -0.09   0.06  0.71  0.00
+120    Indian  EKE       0        raw        0.13  -0.37   0.63  0.59  0.01
+121    Indian  EKE       0  detrended        0.07  -0.30   0.44  0.71  0.00
+122    Indian  EKE       1        raw        0.24  -0.23   0.72  0.30  0.03
+123    Indian  EKE       1  detrended        0.25  -0.09   0.58  0.15  0.07
+124    Indian  EKE       2        raw        0.15  -0.32   0.61  0.53  0.01
+125    Indian  EKE       2  detrended        0.09  -0.32   0.49  0.66  0.01
+126    Indian   KE       0        raw        0.13  -0.15   0.40  0.35  0.03
+127    Indian   KE       0  detrended        0.09  -0.12   0.30  0.40  0.03
+128    Indian   KE       1        raw        0.17  -0.09   0.42  0.18  0.05
+129    Indian   KE       1  detrended        0.16   0.00   0.32  0.05  0.10
+130    Indian   KE       2        raw        0.03  -0.21   0.26  0.81  0.00
+131    Indian   KE       2  detrended       -0.01  -0.21   0.20  0.95  0.00
+132    Indian  SPD       0        raw        0.10   0.02   0.18  0.01  0.11
+133    Indian  SPD       0  detrended        0.09   0.02   0.17  0.02  0.11
+134    Indian  SPD       1        raw        0.10  -0.07   0.27  0.23  0.10
+135    Indian  SPD       1  detrended        0.10  -0.05   0.25  0.17  0.12
+136    Indian  SPD       2        raw       -0.04  -0.14   0.07  0.46  0.01
+137    Indian  SPD       2  detrended       -0.04  -0.14   0.05  0.36  0.02
+138    Indian    T       0        raw        0.09   0.00   0.19  0.04  0.11
+139    Indian    T       0  detrended        0.09  -0.00   0.18  0.06  0.10
+140    Indian    T       1        raw        0.14   0.04   0.23  0.01  0.20
+141    Indian    T       1  detrended        0.13   0.04   0.22  0.01  0.20
+142    Indian    T       2        raw        0.01  -0.08   0.10  0.85  0.00
+143    Indian    T       2  detrended        0.01  -0.08   0.10  0.86  0.00
+168   Pacific  EKE       0        raw        0.16  -0.18   0.51  0.34  0.04
+169   Pacific  EKE       0  detrended       -0.10  -0.36   0.17  0.45  0.03
+170   Pacific  EKE       1        raw        0.54   0.24   0.84  0.00  0.42
+171   Pacific  EKE       1  detrended        0.33   0.10   0.55  0.01  0.34
+172   Pacific  EKE       2        raw        0.38  -0.01   0.76  0.05  0.20
+173   Pacific  EKE       2  detrended        0.10  -0.17   0.36  0.46  0.03
+174   Pacific   KE       0        raw        0.17  -0.05   0.40  0.13  0.10
+175   Pacific   KE       0  detrended       -0.02  -0.17   0.13  0.79  0.00
+176   Pacific   KE       1        raw        0.34   0.13   0.54  0.00  0.38
+177   Pacific   KE       1  detrended        0.17   0.02   0.31  0.03  0.30
+178   Pacific   KE       2        raw        0.25   0.05   0.44  0.02  0.20
+179   Pacific   KE       2  detrended        0.03  -0.06   0.13  0.47  0.01
+180   Pacific  SPD       0        raw        0.12   0.03   0.20  0.01  0.21
+181   Pacific  SPD       0  detrended        0.03  -0.02   0.08  0.26  0.05
+182   Pacific  SPD       1        raw        0.09   0.00   0.18  0.05  0.13
+183   Pacific  SPD       1  detrended       -0.00  -0.05   0.05  0.95  0.00
+184   Pacific  SPD       2        raw        0.08   0.03   0.13  0.00  0.11
+185   Pacific  SPD       2  detrended       -0.02  -0.08   0.04  0.46  0.02
+186   Pacific    T       0        raw        0.12   0.05   0.18  0.00  0.34
+187   Pacific    T       0  detrended        0.05   0.01   0.09  0.02  0.23
+188   Pacific    T       1        raw        0.08   0.03   0.14  0.00  0.17
+189   Pacific    T       1  detrended        0.01  -0.02   0.04  0.50  0.01
+190   Pacific    T       2        raw        0.08   0.02   0.13  0.01  0.17
+191   Pacific    T       2  detrended        0.00  -0.06   0.06  0.99  0.00
+       sector      tau  var  trend_lnX_pct_dec  trend_lnX_p  trend_lntau_pct_dec  trend_lntau_p  trend_ratio  trend_ratio_lo  trend_ratio_hi  P_tau_trend_le0
+0         ACC    z4560  EKE              8.071        0.020                2.082          0.103        3.877         -18.997          31.231            0.049
+6         ACC    z4560   KE              4.901        0.003                2.082          0.103        2.354         -11.333          19.119            0.049
+12        ACC    z4560  SPD              2.021        0.003                2.082          0.103        0.971          -5.150           8.143            0.050
+18        ACC    z4560    T              1.611        0.003                2.082          0.103        0.774          -3.988           5.952            0.050
+24        ACC  accmask  EKE              8.071        0.020                2.259          0.030        3.572           0.660          18.807            0.015
+30        ACC  accmask   KE              4.901        0.003                2.259          0.030        2.169           0.822          11.392            0.014
+36        ACC  accmask  SPD              2.021        0.003                2.259          0.030        0.894           0.348           4.572            0.015
+42        ACC  accmask    T              1.611        0.003                2.259          0.030        0.713           0.262           3.762            0.015
+48   Atlantic    z4560  EKE              7.775        0.126                0.539          0.787       14.418         -73.913          70.458            0.383
+54   Atlantic    z4560   KE              4.071        0.073                0.539          0.787        7.549         -33.536          35.650            0.373
+60   Atlantic    z4560  SPD              1.777        0.003                0.539          0.787        3.295         -15.648          15.425            0.378
+66   Atlantic    z4560    T              1.816        0.003                0.539          0.787        3.368         -14.960          16.241            0.382
+72   Atlantic  accmask  EKE              7.775        0.126               -0.112          0.950      -69.481         -72.865          72.944            0.528
+78   Atlantic  accmask   KE              4.071        0.073               -0.112          0.950      -36.380         -36.310          37.542            0.525
+84   Atlantic  accmask  SPD              1.777        0.003               -0.112          0.950      -15.877         -16.350          15.946            0.524
+90   Atlantic  accmask    T              1.816        0.003               -0.112          0.950      -16.229         -16.258          15.581            0.521
+96     Indian    z4560  EKE              5.824        0.007                0.723          0.645        8.054         -56.800          57.038            0.302
+102    Indian    z4560   KE              3.124        0.003                0.723          0.645        4.320         -31.415          31.066            0.306
+108    Indian    z4560  SPD              0.902        0.053                0.723          0.645        1.247          -9.182           8.621            0.304
+114    Indian    z4560    T              0.302        0.625                0.723          0.645        0.418          -5.393           5.606            0.300
+120    Indian  accmask  EKE              5.824        0.007                1.130          0.429        5.155         -44.959          52.620            0.201
+126    Indian  accmask   KE              3.124        0.003                1.130          0.429        2.765         -23.770          26.389            0.205
+132    Indian  accmask  SPD              0.902        0.053                1.130          0.429        0.798          -7.311           8.311            0.205
+138    Indian  accmask    T              0.302        0.625                1.130          0.429        0.268          -4.006           4.629            0.203
+144   Pacific    z4560  EKE              9.495        0.007                2.203          0.571        4.311         -30.569          33.978            0.294
+150   Pacific    z4560   KE              7.735        0.007                2.203          0.571        3.512         -25.495          27.339            0.294
+156   Pacific    z4560  SPD              3.512        0.007                2.203          0.571        1.594         -12.088          11.107            0.294
+162   Pacific    z4560    T              2.891        0.003                2.203          0.571        1.312          -8.668          10.105            0.290
+168   Pacific  accmask  EKE              9.495        0.007                4.904          0.130        1.936         -10.042          16.009            0.055
+174   Pacific  accmask   KE              7.735        0.007                4.904          0.130        1.577          -9.460          13.147            0.058
+180   Pacific  accmask  SPD              3.512        0.007                4.904          0.130        0.716          -4.006           6.069            0.054
+186   Pacific  accmask    T              2.891        0.003                4.904          0.130        0.589          -3.066           5.043            0.053

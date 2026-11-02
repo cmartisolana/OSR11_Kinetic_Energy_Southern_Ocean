@@ -1,0 +1,5 @@
+n_cols,n_branch,n_usable,frac_usable,lon_usable_min,lon_usable_max,clim_lat_mean,site,G1_pass,T_recovered_km,A_spurious_km,U_spurious_km,F_amp_response_km,N_amp_sd_km,T_amp_spurious_km,U_sinuosity_spurious,F_sinuosity_response,N_sinuosity_sd,U_intkappa_spurious,F_intkappa_response,N_intkappa_sd,G2_pass_meanlat,G2_pass_amp
+80,77,77,0.9625,140.0625,149.9375,-52.29222383719913,SEIR150,True,21.304471070415655,9.971401344408543,-1.211172579117658,8.32317260303436,29.447611646586957,9.500717328818448,-0.07554881702479839,-0.021196206203024544,0.055821830501382876,-3.656289472868623,0.22078345284839468,3.817617374779873,True,False
+64,46,26,0.40625,76.0625,79.1875,-46.11188334311102,KERG,False,,,,,,,,,,,,,,
+206,74,43,0.2087378640776699,-134.3125,-129.0625,-54.42680436546369,PAR,False,,,,,,,,,,,,,,
+120,36,17,0.14166666666666666,-63.9375,-59.5625,-56.29490102668957,DRAKE,False,,,,,,,,,,,,,,
