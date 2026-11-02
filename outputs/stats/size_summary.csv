@@ -1,0 +1,11 @@
+log,kind,n_values,phi,replicates,size_test,size_sieve,coverage,complete
+ann15.log,annual trend_bcz,15.0,0.5,200,0.095,,0.89,True
+ann25.log,annual trend_bcz,25.0,0.5,200,0.05,,0.95,True
+ord12_z_ar1_0.8.log,monthly trend_bcz,300.0,,125,0.08,0.112,,True
+ord12_z_real_Drake_EKE.log,monthly trend_bcz,300.0,,125,0.04,0.072,,True
+single_ar1_0.5.log,monthly trend_bc,300.0,,100,0.1,0.13,,True
+single_ar1_0.8.log,monthly trend_bc,300.0,,100,0.09,0.15,,True
+z_ar1_0.8.log,monthly trend_bcz,300.0,,300,0.053,0.107,,True
+z_ar1_0.95.log,,,,0,,,,False
+z_real_ACC_EKE.log,,,,0,,,,False
+z_real_Drake_EKE.log,monthly trend_bcz,300.0,,200,0.095,0.14,,True

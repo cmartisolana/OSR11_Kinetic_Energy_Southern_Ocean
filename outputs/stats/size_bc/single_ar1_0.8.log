@@ -1,0 +1,5 @@
+ar1_0.8 true phi sum 0.8
+25 bc 0.04 sieve 0.12 phi_sum 0.745 bc 0.785
+50 bc 0.08 sieve 0.14 phi_sum 0.762 bc 0.801
+75 bc 0.093 sieve 0.133 phi_sum 0.762 bc 0.801
+100 bc 0.09 sieve 0.15 phi_sum 0.761 bc 0.8

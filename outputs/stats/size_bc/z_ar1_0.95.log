@@ -1,0 +1,16 @@
+ar1_0.95 true phi sum 0.95
+Traceback (most recent call last):
+  File "/mnt/user-data/outputs/revision/stats_size_check_bc.py", line 34, in <module>
+    o = R.trend_bcz(x, y, month=mo, monthly=monthly, n_outer=200, seed=k)
+  File "/mnt/attach/outputs/revision/rstats.py", line 414, in trend_bcz
+    bi, _, sdi, *_ = _z_stat(x, s_, monthly, n_bias, rng)
+                     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/attach/outputs/revision/rstats.py", line 392, in _z_stat
+    sd = _ols_slope_sd(phi_bc, sig, x)
+  File "/mnt/attach/outputs/revision/rstats.py", line 383, in _ols_slope_sd
+    g = arma_acovf(np.r_[1.0, -phis], np.array([1.0]), nobs=x.size, sigma2=sig ** 2)
+  File "/usr/local/lib/python3.13/dist-packages/statsmodels/tsa/arima_process.py", line 179, in arma_acovf
+    raise ValueError(NONSTATIONARY_ERROR)
+ValueError: The model's autoregressive parameters (ar) indicate that the process
+ is non-stationary. arma_acovf can only be used with stationary processes.
+

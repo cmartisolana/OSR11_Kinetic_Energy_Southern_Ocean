@@ -1,0 +1,15 @@
+ar1_0.8 true phi sum 0.8
+25 bc 0.12 sieve 0.2 phi_sum 0.776 bc 0.795
+50 bc 0.06 sieve 0.1 phi_sum 0.784 bc 0.804
+75 bc 0.04 sieve 0.08 phi_sum 0.786 bc 0.806
+100 bc 0.04 sieve 0.07 phi_sum 0.787 bc 0.807
+125 bc 0.04 sieve 0.08 phi_sum 0.784 bc 0.804
+150 bc 0.04 sieve 0.08 phi_sum 0.785 bc 0.804
+175 bc 0.051 sieve 0.091 phi_sum 0.783 bc 0.802
+200 bc 0.06 sieve 0.1 phi_sum 0.783 bc 0.802
+225 bc 0.053 sieve 0.098 phi_sum 0.784 bc 0.803
+250 bc 0.052 sieve 0.104 phi_sum 0.784 bc 0.804
+275 bc 0.051 sieve 0.109 phi_sum 0.783 bc 0.802
+/usr/local/lib/python3.13/dist-packages/pymannkendall/pymannkendall.py:99: RuntimeWarning: invalid value encountered in sqrt
+  z = (s - 1)/np.sqrt(var_s)
+300 bc 0.053 sieve 0.107 phi_sum 0.783 bc 0.802

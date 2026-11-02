@@ -1,0 +1,11 @@
+region,quantity,trend,lo,hi,p,source
+"Circumpolar, 900 tracks",Half-power latitude (km per decade),-0.5,-4.2,3.1,0.741,revision/outputs/x1/x1_circumpolar_trends.csv
+"Circumpolar, 900 tracks",Latitude of fixed ADT contour through mean half-power point (km per decade),-11.5,-13.7,-9.2,0.003,revision/outputs/x1/x1_circumpolar_trends.csv
+"Circumpolar, 900 tracks",ADT at half-power point (cm per decade),2.6,2.1,3.2,0.003,revision/outputs/x1/x1_circumpolar_trends.csv
+"Drake 70-55W, 62 tracks",Half-power latitude (km per decade),-2.9,-7.2,1.3,0.159,revision/outputs/x1/x1_drake_trends.csv
+"Drake 70-55W, 62 tracks",Latitude of fixed ADT contour through mean half-power point (km per decade),-12.8,-16.9,-8.6,0.003,revision/outputs/x1/x1_drake_trends.csv
+"Drake 70-55W, 62 tracks",ADT at half-power point (cm per decade),2.7,1.5,3.8,0.003,revision/outputs/x1/x1_drake_trends.csv
+"Drake 70-55W, 62 tracks","2016-2025 minus 2001-2015, half-power latitude (km)",-2.6,,,,revision/outputs/x1/x1_drake_period_shift.json
+"Drake 70-55W, 62 tracks","2016-2025 minus 2001-2015, fixed ADT contour (km)",-18.8,,,,revision/outputs/x1/x1_drake_period_shift.json
+"Circumpolar, 900 tracks",Contour displacement implied by ADT rise / median local meridional ADT gradient (2.8 cm per 10 km) (km per decade),-9.5,,,,"derived: x1 adt_hp trend / median |dADT/dy| at lat_hp_clim (outputs/a2/tracks_baseline.npz, ../outputs/mean_adt.nc); method of x1_results.md; Drake value computed by SI agent 2 Nov 2026"
+"Drake 70-55W, 62 tracks",Contour displacement implied by ADT rise / median local meridional ADT gradient (3.2 cm per 10 km) (km per decade),-8.4,,,,"derived: x1 adt_hp trend / median |dADT/dy| at lat_hp_clim (outputs/a2/tracks_baseline.npz, ../outputs/mean_adt.nc); method of x1_results.md; Drake value computed by SI agent 2 Nov 2026"

@@ -1,20 +1,17 @@
+# OS / editor / Python junk
 .DS_Store
-**/.DS_Store
-
-# Environments
-.venv*/
-**/__pycache__/
+__pycache__/
 *.pyc
-
-# Local tooling config
+.ipynb_checkpoints/
+.venv*/
 .claude/
-
-# Generated analysis artifacts (regenerate with scripts + notebooks)
-outputs/
-plots/
-
-# External repository (auto-cloned by scripts/extract_observed_drake_geostrophic_transport.py)
-external/
-
-# Notebook runtime artifacts
-**/.ipynb_checkpoints/
+# Raw data and caches (not distributed; see README "Data")
+/data/
+/cache/
+*.tmp.nc
+# Large caches written by the processing steps (regenerated; not distributed)
+/outputs/drake/dk5/dk5_section_fields.npz
+/outputs/drake/dk6/fields_*.npz
+/outputs/drake/dk10/dk10_monthly_points.npy
+/outputs/a2/tracks_[!b]*.npz
+/outputs/a2/unmatched_*.csv

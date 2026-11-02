@@ -1,0 +1,2 @@
+allsat: n=248 r_transect=0.535 r_annual=0.670
+twosat: n=248 r_transect=0.523 r_annual=0.658
