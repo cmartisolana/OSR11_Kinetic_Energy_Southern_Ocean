@@ -1,0 +1,5 @@
+# Only for the data-extraction step (scripts/00_extract, 01a, 01c); not installed in the verification environment,
+# so not pinned. Needs a Copernicus Marine account (copernicusmarine login).
+copernicusmarine
+# Optional: secondary Hamed-Rao Mann-Kendall p-value reported for comparison by osr11.rstats (skipped if absent)
+pymannkendall

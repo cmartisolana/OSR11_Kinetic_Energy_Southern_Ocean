@@ -1,0 +1,6 @@
+real_Drake_EKE true phi sum 0.746
+25 bc 0.04 sieve 0.04 phi_sum 0.683 bc 0.736
+50 bc 0.04 sieve 0.08 phi_sum 0.689 bc 0.741
+75 bc 0.027 sieve 0.067 phi_sum 0.68 bc 0.733
+100 bc 0.03 sieve 0.07 phi_sum 0.68 bc 0.733
+125 bc 0.04 sieve 0.072 phi_sum 0.68 bc 0.732

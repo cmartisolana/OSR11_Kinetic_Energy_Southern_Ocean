@@ -1,0 +1,5 @@
+region,cells,months,mean_dbar_per_100km,trend_dbar_per_100km_per_decade,pct_per_decade,pct_lo,pct_hi,p,fdr_cells,source
+ACC band + 100 km,2835,264,93.0,1.09,1.2,0.3,2.0,0.02,13,"revision/outputs/f4m/f4m_results.csv [27.3 signed, domain, monthly test]; cells and FDR cells from revision/outputs/f4m/f4m_map.nc"
+Atlantic (70W-20E),755,264,84.7,1.89,2.2,0.8,3.6,0.013,7,"revision/outputs/f4m/f4m_results.csv [27.3 signed, Atlantic, monthly test]; cells and FDR cells from revision/outputs/f4m/f4m_map.nc"
+Indian (20-147E),1026,264,92.2,0.22,0.2,-0.7,1.1,0.575,3,"revision/outputs/f4m/f4m_results.csv [27.3 signed, Indian, monthly test]; cells and FDR cells from revision/outputs/f4m/f4m_map.nc"
+Pacific (147E-70W),1054,264,101.1,1.52,1.5,-1.2,4.2,0.239,3,"revision/outputs/f4m/f4m_results.csv [27.3 signed, Pacific, monthly test]; cells and FDR cells from revision/outputs/f4m/f4m_map.nc"
