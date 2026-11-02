@@ -1,0 +1,24 @@
+# Core
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+xarray>=2023.1
+netCDF4>=1.6
+statsmodels>=0.14     # ARMA autocovariance in rstats.trend_bcz
+
+# Plotting
+matplotlib>=3.8
+cartopy>=0.22
+Pillow                # SI builder (figure resizing)
+
+# Data access and preprocessing
+copernicusmarine      # revision/extract_monthly.py, extract_wind.py
+cdsapi                # revision/plan1019/extract_c3s_twosat.py (optional, C3S two-satellite vDT2018)
+gsw                   # TEOS-10 for the Argo density surfaces (plan1019/drake/dk32)
+numba                 # front-detection utilities (fronts.py)
+contourpy
+
+# First-submission notebooks only (archive/first_submission)
+pymannkendall
+jupyter
+ipykernel

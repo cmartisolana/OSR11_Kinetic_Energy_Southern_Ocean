@@ -1,0 +1,13 @@
+{
+ "7055": {
+  "n_tracks": 62,
+  "halfpower_late_minus_early_km": -2.6,
+  "contour_late_minus_early_km": -18.8
+ },
+ "8640": {
+  "n_tracks": 105,
+  "halfpower_late_minus_early_km": -2.6,
+  "contour_late_minus_early_km": -17.5
+ },
+ "note": "2016-2025 minus 2001-2015 mean latitude anomaly (km, + north), mean over the retained circumpolar tracks (>=90 % rule) in the region; scripts/03_drake/03t_contour_vs_energy_drake.py"
+}

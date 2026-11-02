@@ -1,0 +1,143 @@
+path,bytes,sha256,producer,needs_raw_data,used_by
+a1/a1_maps_bc.nc,1865512,79d0a2e412b172686756b8f6d762eef6c68f99e2125c06320b9ca8dd77b6a564,02g_eke_maps_bc,yes (cache),Fig. 3a
+a2/a2_summary.csv,54549,87c04b5d3f5bd855c5d027141b9518a24b738fbd4d3c2b14b12079473719a6d9,02b_halfpower_sets,yes (cache),05a A2 (old p column); SI S3
+a2/a2f_lon_trends.csv,6990,97539429acdaebd2e93ace6b32ed319f22fc1d96de5ade444df36b019d552635,02b_halfpower_sets,yes (cache),05a A2 (old p column); SI S3
+a2/a2h_twosat_vs_allsat.csv,1613,1d724bc0fc3a73344714ab282804448d1a88259d1aa8eddb9cee3ebd90d52d27,02e_halfpower_twosat,yes,Fig. S6
+a2/detection_frequency_lon.csv,67170,cc207f853db57e70550fc93c75740ea893acc695602d1e70ef91867145d7a074,02b_halfpower_sets,yes (cache),05a A2 (old p column); SI S3
+a2/tracks_baseline.npz,19211788,4b91e58060c50eadfacb2ee4d9ea48a20b94ee4b1dce7b93b76f38e2ebac227b,02c_halfpower_tracks,yes (cache),"02e, 02j, 03t, 05a A2"
+a3/a3_realisations.csv,129178,34d3f5263d924ff9c070410d585ad77990c0ad78c144f85188b00b85ade21722,02d_halfpower_detectability,yes (cache),05c
+a3/a3_summary.csv,6377,a28d170f1ed232a46686705fca53b9d8e8e33b597fb9f7f74f74bd582c93dbca,05c_detectability_summary,no,Fig. S5
+a5/a5_blockKE_allsat.csv,8605,15d033a9cf45c7ba5c93510f511a694fa4972965e00f24f937a8ee2a4afe6c8f,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a5/a5_blockKE_twosat.csv,8599,c006c9c16acc3832a1f681c0c634e92c5086a27dd290216dc4e2a38cce645191,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a5/a5_series_allsat.csv,513450,69ec46694101416db2c9a136d1d92856aae711c1f54f767c34165b6085dc2e35,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a5/a5_series_twosat.csv,514068,c4049f8f520c794e9ad8336e68a32bca57a313c1ee2ad5d0dc8ecfaafc1dbd1a,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a5/a5_trends_allsat.csv,26188,62323828d09b52ef083595caf175496a8f34bb78e4d86273b941fa8f5f8295da,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a5/a5_trends_twosat.csv,26201,87724acf6ac15c919cd9b43e15747a7f92876b8db474b9d923c4c0ac6094fd45,02a_energy,yes,"05a A5/CONTRAST, Fig. 3c, Fig. S1, 05g"
+a6/a6b_drake_box_series.csv,24442,2b11fa36df20cc86530febc1d93f37f3701c99d7a941d0378a3c2a7fc7d8efa9,03u_drake_box_masks,yes,"05a CONTRAST, 05g"
+a6/a6b_drake_box_trends.csv,2445,704ffa2e9db4c19f30dd355106e343aa84911997dd05d7c7e3c6139ea90c5d4a,03u_drake_box_masks,yes,"05a CONTRAST, 05g"
+a7/a7_areas_allsat.csv,335,876f3804ec81bd720573711c8a648ca64510d80fd0a94307fbd865b4d1a3e37b,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_areas_twosat.csv,340,13c6e80cc720b3529bc330c3ce690de6fa51b20e62762ec41026b81f13bcea41,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_series_allsat.csv,566383,8b75d5e6c62a086043df53a86a3b53d82ed457853b5cbfee7427c8e513c1d0a6,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_series_twosat.csv,567115,fdef38c79afe852c2d45baf4d61ab86c73b60b370c32b7183550196561914e3b,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_share_allsat.csv,110,8f6265dba75373c4c137c8a4ced0224ca33924aafe0dd36f41dbede492c36bd4,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_share_twosat.csv,111,57636e81a19fcbb9f351859a17b5d9e60a772b3f3d9d26c10bb924c8cf33cc69,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_tests_allsat.csv,4449,21b118de21e39e9b4f6a72166ffd865ebc3baf169e1179b9f1b970a3b316d40a,02m_wake_localisation,yes,05a A7 (Table S1)
+a7/a7_tests_twosat.csv,4464,da8b45544a265b37bb72ee477e6d57118e22c765bae443689764954404421943,02m_wake_localisation,yes,05a A7 (Table S1)
+base/bathymetry_so.nc,3725008,97b2f83a93e886387a11ccf7518c5e31c4464ad4b61b0fa5eccf4210663b3263,00c_prepare_bathymetry,yes (GEBCO),"isobaths, depths; Figs. 2-4"
+base/clim_allsat.nc,8315867,ddbe0006415eb0c6677532fcf665099b458a226f8c73e032b8c6753b5484d34d,01d_climatology,yes (monthly files),"fronts in Figs. 2-4; 02i, 03i-03k, 04b"
+base/mean_adt.nc,5552575,5ac7d9c2e6d3854e732eebff8698dfb576217dd6cb3d1e982079b60d4219327e,01a_preprocessing,yes,"all maps, ACC band"
+base/sea_ice_mask.nc,712525,7bf09b52b1d2ee58e9b59f29fcb3fd36e5c3d2e94fc44fa9d6bc6ef2b2694b52,01a_preprocessing,yes,all maps
+d1/d1b_insitu_split.csv,16147,7cf1297d03a23576cc17e499c48c7ec2f18621108cef7f0eeb1283a768264dcb,03a_gould_track,yes (+GV23),"Fig. 2, 03d"
+d1/d1b_series.csv,17934,cbce08cea94e79b649a24dd552cc4d11164d9b9a597d0659e0410dc7c8f7f9f3,03a_gould_track,yes (+GV23),"Fig. 2, 03d"
+d1/d1b_summary.csv,709,28996f3910d3810872e344cb0cf0764a94da0c2c4ce77789415498dc12f6d0c5,03a_gould_track,yes (+GV23),"Fig. 2, 03d"
+d1/d1b_track.csv,5323,f5de4ab2f469b87b223c8c643d222baa9f716e8828aa8eea7bd6adcc04af011a,03a_gould_track,yes (+GV23),"Fig. 2, 03d"
+d1/d1b_trends.csv,761,0a6c43b8b12521755f0ac1104f2dc027a1b41caffbfd4b649adcbf8c47b731a2,03a_gould_track,yes (+GV23),"Fig. 2, 03d"
+drake/dk1/dk1_series.csv,163182,cb5fff355868a511dc7bb9e264e329a465deb18889246e74c5a2ff9a2175774c,03r_drake_regions,yes,Fig. S2
+drake/dk1/dk1_trends.csv,15382,c32e447234877de270e7f9414cb8358d056f9236d11e427ef167f0279a4b2ec0,03r_drake_regions,yes,Fig. S2
+drake/dk10/dk10_hp_density_p2.npz,182378,5d5a81f2a100ed51ee83bb738e2990f539a3614e3beb77f577ff874ef6133665,03o_halfpower_density_drake,yes,Fig. 2b (83 %)
+drake/dk12/dk12_band_annual_allsat.csv,86753,a2ee4fa8b77c1fc8b97cf446765fe9ed3a8797d146e6303acbc91cc6f12df721,02i_band_lonbins,yes,"Figs. 3d, 4, S2; 04b; Sect. 3.2"
+drake/dk12/dk12_band_series_allsat.npz,434444,de7d8a8f4d00d448226b4de473fd42e0c38ecb0075450bbd608eb0a14c766996,02i_band_lonbins,yes,"Figs. 3d, 4, S2; 04b; Sect. 3.2"
+drake/dk12/dk12_band_trends_allsat.csv,35591,57ffdca10031b812995306306d1eddd2ab392b8dac0c6253ddcffc74f6b91f87,02i_band_lonbins,yes,"Figs. 3d, 4, S2; 04b; Sect. 3.2"
+drake/dk14/dk14_hp_density_circ.npz,514370,c986c13cedeb17ba419f3f31a1363dfb7ef758671ed517e898bab9c18acfc5e2,02h_halfpower_density,yes,Fig. 3b (79 %)
+drake/dk2/dk2_positions.csv,18415,965b768b2589e8395910015c903efc529bac03e8277dd76a541df84f2cdee6f5,03q_section_fronts,yes (+GV23),SI S2-S3 context
+drake/dk2/dk2_profiles_allsat.npz,6996,6b50d9a033e265478e7999e6abb974a6528afeec63cf9b241a23f301fed9f5c9,03q_section_fronts,yes (+GV23),SI S2-S3 context
+drake/dk2/dk2_profiles_twosat.npz,6996,a41a1eb1a5d3ae1cc30224fc6e09fc262b1a4c298bc293bc5f48d6d8ba556ee7,03q_section_fronts,yes (+GV23),SI S2-S3 context
+drake/dk2/dk2_trends.csv,785,3670915096fdf6e5f1e6e76bc01b7e9dab4c657923076ec4a42f929dc0c8c501,03q_section_fronts,yes (+GV23),SI S2-S3 context
+drake/dk2/dk2_vs_insitu.csv,610,93018a1a8a36baf2f3e23dc4311e9af8a64e0f3c73cf5d17d0aae67e16ca405d,03q_section_fronts,yes (+GV23),SI S2-S3 context
+drake/dk24/dk24_section_fields_allsat.npz,1125313,9043b1ec09c187a7b671b2211f551666dffc47fcad254a67054f0cd9d2dbf293,03d_section_streamwise,yes,"Figs. 2d, S4; 03e-03g"
+drake/dk24/dk24_stream_series.csv,265947,3509cd72260be5230f197ca9684631fc72aa87389d80c8ad8827b1b2deeeeefc,03d_section_streamwise,yes,"Figs. 2d, S4; 03e-03g"
+drake/dk24/dk24_stream_trends.csv,25533,2b0941acc7e3f19e863c60e633c89b3ead9b1519ba9f9034ead1272a3d7bfd16,03d_section_streamwise,yes,"Figs. 2d, S4; 03e-03g"
+drake/dk25/dk25_profile_trends.csv,6777,2f15696de5cdd22bc4f14be0f5d55c292262c412351a9217b91ec74108377f42,03e_profile_trends,no (dk24 npz),Fig. S4
+drake/dk3/dk3_eke_annual_icefree_allsat.csv,654,ab47586fb1807cb3c63f5fc8ab2301e8fa5c740b0f2a95f196caba25b5cf8f05,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_eke_annual_icefree_twosat.csv,655,d06c18a90fa57089564411c1fd0bfe3b60a7f5a05d5893fc5f554ee387de5474,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_eke_annual_north_allsat.csv,649,6dac49675011dd9d7aa1ee2605e8856a78249e286e8522d6d426d6899d2dd9de,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_eke_annual_north_twosat.csv,646,fb6ae24b26a2b3064d3cf64588d0bcd89e4991b887b7a8a7fc1e43c3cc8ad1b5,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_eke_transects_allsat.csv,25415,2bbffe42357119029e3085afddd1a33ed7a24017d8eb1d587403c542a93cdc81,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_eke_transects_twosat.csv,25415,edee0249109bec27a11ea86450b8b0a5b4e365cf96ea25e5258c75d36310caef,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_summary.csv,2582,68745790ca52343c14ef7a6eeacde93fc10714873787c8ec98f1077edf9e5679,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_velocity_profile_allsat.csv,1849,cceca3565b97367425c8137052d768a77bcabe3ec2dd1e0a3925efac1e22830f,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk3/dk3_velocity_profile_twosat.csv,1849,405f4b68d0c3d83fa05fa94aa60c67c0f1a6c88000a135ab6943d9009e39cdfa,03h_insitu_validation,yes (+GV23),"Fig. S4, SI S2"
+drake/dk32/dk32_drake_sigma0.npz,1717002,99ef2edfac2e9c37fd8b7d83b0b803bee233ccee89265f951833cbef09f1563f,04a_isopycnal_depth,yes (Argo),04c
+drake/dk32/dk32_iso.npz,5805262,58c02fac8def54a340bd3252de5827b4d489284efdb1a3d848f33de9bc1e0a58,04a_isopycnal_depth,yes (Argo),04c
+drake/dk32/dk32_slope_lon.npz,194370,2e20b7efc3b08151167e4b5ff43f5e755ec816553e9bcb0a3db122e01c721299,04a_isopycnal_depth,yes (Argo),04c
+drake/dk32/dk32_slopes.csv,2152,00407cd30ff8abe47e92bed5a8874f8fc9a3d14613ef99757c669241d5144f41,04a_isopycnal_depth,yes (Argo),04c
+drake/dk34/dk34_drake_fields.npz,141264,ddbe9dbf089f01114ee6a747f678aa4daae453221d15c4eeeb364d875b3544c7,03k_drake_maps,yes,"Fig. 2a, S4"
+drake/dk39/dk39_transport_bins.csv,6694,bd63943006dcfc49a7b041017c07a2c4876998a314711bf19acfcfd039d8ae98,03f_transport_bins,no (dk24 npz),Fig. S4
+drake/dk40/dk40_net_annual.csv,674,958241b6e145a5df93b2e2421099503df2bd0b66cc924acd4ab7dab49cadb743,03g_net_surface_transport,no (dk24 npz),"Sect. 2.3, Table S2"
+drake/dk40/dk40_net_monthly.csv,16768,6d3a2c887bfcb5e5ce2df15c9e0f94d89561dc65de647306e22288dd88c9a2e9,03g_net_surface_transport,no (dk24 npz),"Sect. 2.3, Table S2"
+drake/dk40/dk40_net_trends.csv,637,401e9acae0197cfe1f76c6e4b1b7977503c68bc293d489ec0f3895672f649daf,03g_net_surface_transport,no (dk24 npz),"Sect. 2.3, Table S2"
+drake/dk5/dk5_psi_to_adt.csv,120,09590bda01286c3aca0d9617dd7176156b3499c5cbd15edc9cb299539a9fe690,03b_transect_trends + 03c_insitu_velocity_fix,yes (+GV23),"Figs. 2d, S3, S4; 02i, 03d, 03i-03k"
+drake/dk5/dk5_stream_edges.csv,473,262f94ad4edc3cb76c4355324d68d1d38cbcff2c02e335bf447df1e04c926d9d,03b_transect_trends + 03c_insitu_velocity_fix,yes (+GV23),"Figs. 2d, S3, S4; 02i, 03d, 03i-03k"
+drake/dk5/dk5_trends.csv,79704,c852b4650ec9e4b863d2bc07dc9207780a271dca2140c135e08a9a9b0dda01e4,03b_transect_trends + 03c_insitu_velocity_fix,yes (+GV23),"Figs. 2d, S3, S4; 02i, 03d, 03i-03k"
+drake/dk6/dk6_detect_S0_seed0.csv,2052,0283defad63360c61e1c1faa042909ada7c7a5e7e02850eee5d59338b5e45807,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_detect_S10_seed10.csv,2141,69c43d07257450af9d555aa3b8764756089d1023a5002045f02a502c8f291e6f,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_detect_S25_seed25.csv,2150,d20c70ab196e9c7648801405a6c554a0926a1800ea0246ada41a4cbd3c5924db,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_series_allsat_ice0.csv,96422,f1eb6de83b023ad145720237faeaeb39f16c329deddad58ed79359f5d9a508c4,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_series_twosat_ice0.csv,96453,0e2e76460732243b0a9dd5d1f5bff0ab731c86c57667095b6b0a07239f9ca3c5,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_tracks_allsat_ice0.csv,12959,5ebcf4e9af7bfe2eda8ab04a5b83c35125bbf35441ead16c78977f24c8940f92,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_tracks_twosat_ice0.csv,6510,575d39558bad22465684c570033243ebc34279e96f30054cbd7265f226552b65,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_trends_allsat_ice0.csv,3562,b75df9a991dc97e65ed7ec8d428b7c9713280a8aa404b818a25edf441b79d841,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_trends_allsat_ice1.csv,3541,c150beb0f55acf51396a6349ec0a38992ea1bfec565372083870427fc75dceee,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_trends_twosat_ice0.csv,3561,4228f2937b5ebf431beed327cc29d7a7ae0f4437e6a14878332138a270c74dd4,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk6/dk6_trends_twosat_ice1.csv,3519,9d83493c656342bc171768fd9e2bf7bb1a4c9d2190bbeacc592d7e74305dc9fa,03m_section_halfpower_tests / 03n_section_halfpower_detect,yes,"Sect. 3.1, SI S3"
+drake/dk8/dk8_along_acc_fronts_allsat.csv,4679,5349a64594a83443b1d884b10751d11eb0fe5ab5378c398d97ee409ccf9bb275,03i_along_acc,yes,Fig. 2c
+drake/dk8/dk8_along_acc_fronts_periods_allsat.csv,7243,fa4b7ffcbd40ba05520b4d3f5583f52781d2636e25912b15a1101379b7b7c9bf,03j_along_acc_periods,yes,"05d, Fig. S2b"
+drake/dk8/dk8_period_change_regions.csv,462,47d29481ab65c7ebf7af695758d4bb64221b601092c1fd1c9778b75218172c43,05d_drake_period_change,no,"Sect. 3.1, SI Drake-domain table"
+drake/dk9/dk9_hp_periods.csv,76798,db9af1d37cb974fe9525f890f32f0b77f39e8e15892c329ea23f2b4c9fb18e0a,03p_halfpower_periods,yes,SI S3
+f3w/f3w_acc_monthly.csv,10158,74660daf8fd4fcead22582e1784dbe08e051633ffa0c77c2d8610f12ded6208d,04b_wind,yes (wind),Fig. 4a
+f3w/f3w_bins.csv,26197,91adc34611da19f52fe5761506d08ee4b27cb3c471c40eb4bb13afca296be508,04b_wind,yes (wind),Fig. 4a
+f3w/f3w_results.csv,503,39cea8165c5d98616ba8d4ed38ed09a8b521a94c31ff6281ccbb782a8dbb141e,04b_wind,yes (wind),Fig. 4a
+f3w/f3w_wind_map.nc,368177,bc10cea8ee8daada84137fdabd9e190d6558ed4dcc988a667ba6784d1fe3c867,04b_wind,yes (wind),Fig. 4a
+f4/f4_lon5_trends.csv,24848,f786daae6cd6fe4ea76a01df55202e9df9c9dad568233ccd941b5f202f630352,04c_slope_fields,no (dk32 npz),"Fig. 4, 04d-04g"
+f4/f4_regional_series.npz,17096,13d876069a70f5d210ef92f4567675d5c1e379f94d8eb9e3a684d4fccb7994c9,04c_slope_fields,no (dk32 npz),"Fig. 4, 04d-04g"
+f4/f4_regional_trends.csv,8401,fa446a79cd675bf6ef83f7e8a549f85d9c63f7e556120387868c8974917bf1f5,04c_slope_fields,no (dk32 npz),"Fig. 4, 04d-04g"
+f4/f4_tilt_maps.nc,3267386,0fc003d6693cb8d775c6477c14fa0f8536a279dafddd94691b3aa0485643f626,04c_slope_fields,no (dk32 npz),"Fig. 4, 04d-04g"
+f4/f4d_eke_bins.csv,8645,456e700489b32a545c25e87da6e61ebe3ac3b346945895c2da5824b12f65729b,04d_eke_wind_bins,yes,04e
+f4/f4d_eke_monthly.csv,10266,f114a9b89a8f7eec389bb6c961b616ae5e1cf6d9a5169785820d96cc2f77f960,04d_eke_wind_bins,yes,04e
+f4/f4d_maps.nc,281312,599d1992d379ba32ca0e3b3d7c5fb0b769b4284f2a74b9b268e4661871b7573b,04d_eke_wind_bins,yes,04e
+f4/f4d_results.csv,1219,bf3f4bffc64823231ee7f4081b0e8d028a5c444b37fa97735abb9158f6f2db5e,04d_eke_wind_bins,yes,04e
+f4/f4d_series.npz,2204,7f594b0535ee8758e023816b7553d2bba363a8d4dd8f0df17005948112894ff0,04d_eke_wind_bins,yes,04e
+f4/f4d_wind_monthly.csv,12816,d52d48712185e97576dd2dff68e5243f37247368c9df8f320a4ecfd297c5a3c0,04d_eke_wind_bins,yes,04e
+f4e/f4e_common_cells.csv,52,dad864c2ce2a6e1c291122501875c26ea7a4c314fa6c6b7feaa628d36f2f93d8,05i_common_cells_count,yes (monthly files),SI S5 cell count
+f4e/f4e_results.csv,1969,c9b9c3a1b461d2fe5707d44eaa4581f716431e328f44c05c17fb715f0d9793ec,04g_common_cells,yes,"Fig. 4c,e; Sect. 3.3; Table S5"
+f4e/f4e_series.csv,28601,f57d6d231308088947b6f033d859d544d47e21441c4e1353c486a14b8c5a3d02,04g_common_cells,yes,"Fig. 4c,e; Sect. 3.3; Table S5"
+f4m/f4m_lon5_trends.csv,7955,349a20a926983ec003b2bae28c9832beda244c97616838649d3b3544206cd608,04e_slope_monthly,yes (Argo),"04f, 04g, Table S4"
+f4m/f4m_map.nc,205712,f1495d8f0a7382bf2a2753425717e23e835ef677214b49336264956f8e8ec5fc,04f_slope_trend_map,no (f4m cache),Fig. 4b
+f4m/f4m_p273_monthly.npz,8785415,b53cdfde3f48ac5aacbc8de5d9d8e1dc2a9e48b2268059e4caea6e0460cf8167,04e_slope_monthly,yes (Argo),"04f, 04g, Table S4"
+f4m/f4m_results.csv,1410,b67a4587cce54dbf656c42779bf150fca4edf9ab9af4b396b74ea3572beeef11,04e_slope_monthly,yes (Argo),"04f, 04g, Table S4"
+f4m/f4m_series.npz,16504,80e20cbad61b673fc6beeca0af801e9f49357c1914463943f5dd40b5e5a001c1,04e_slope_monthly,yes (Argo),"04f, 04g, Table S4"
+f4s/f4s_points.csv,1766,561682148a53392349662d3e101cdd1ef8284d278fe0841efdcd43bcbc5c8431,04h_wind_sensitivity,no (f4e series),Fig. 4d; Sect. 3.3; Table S5
+f4s/f4s_results.csv,354,b30bd8522357b09ec3fc18085d58f037c2505726bba111dedde2b4310e55c57d,04h_wind_sensitivity,no (f4e series),Fig. 4d; Sect. 3.3; Table S5
+fig1/clim_profile_147.9.npy,2048,aa3a9dacc48951b8b8afe20b83598f4a84eb50eccaa6412cc87a99d2e0b15094,figures/fig1_halfpower_method (cache),yes,Fig. 1
+m1/m1_trends.csv,20612,604f3f948b4bb1ea16e18749f79c3cbaf3d2cc80aafa453107274f514520f96d,02l_earlier_studies,yes,"Fig. S1d, Table S1"
+retest/retest_A2.csv,26801,ee8f01d66f46e4bc8bd9ad02684116d5ee4a243194db0a598821260824841fa7,05a_retest,no (saved series),05b
+retest/retest_A5.csv,80907,31b513876998ee501656200da3be233fb81acc5efa7746fd88d99cd2c9b86be2,05a_retest,no (saved series),05b
+retest/retest_A7.csv,22946,e954f249342f781e7c33a24a9a9d0339672e5ebcf32fbcae8303fa11785eb58f,05a_retest,no (saved series),05b
+retest/retest_CONTRAST.csv,4892,aecd767173db32683f18868577a8f4106c8a80e52fe8a8fb4cf2a892bc018773,05a_retest,no (saved series),05b
+retest/retest_summary.csv,138460,61b7501000b221bc88fff4f4d935f5597b791510383d2ef5bc3945f051b740c2,05b_retest_summary,no,"Figs. 3, S1, S5; Table S1; Sect. 3.2"
+stats/size_bc/ann15.log,139,a556434b3388b5b581117fbeb3f6c2d0693db2d6902c26daea27e7e091856b2d,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/ann25.log,141,11bacde438d4fbbbe7a796518293b8d54cbb879f600e14d84f5c7928fbca4c66,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/ord12_z_ar1_0.8.log,250,f9556fff91090e9bef76069e29f4237d9232494f081659f8ba289da96171bc2e,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/ord12_z_real_Drake_EKE.log,261,3338bc67b97f262e09bda23215a8f8ff1f2e96e633abc809c942eb6c362c3c96,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/single_ar1_0.5.log,206,14509af33c36d262adfbb56d01bed72025bc6a703575c42e76bbf6663950ff6b,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/single_ar1_0.8.log,206,a768315452e503abd6140cc651ef5ccd13465e7a37702ccf4a47b361fe9ac880,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/size_bc_z_ar1_0.8.npy,9728,a90bea37e822173a03a4d624fa41f6a7b1a943fe9ce2e0bf73c25c8637f35840,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/z_ar1_0.8.log,735,e1b37fe30895c2d9b5d6848951de21d069ab7182df084e1388276ae894c5e9ab,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/z_ar1_0.95.log,986,dd8c0ecbad5c3378ea54ed46dfd60290d2420d17103ae9c62d22d71fcbc7e1fa,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/z_real_ACC_EKE.log,32,c4fc7c04d0058121280807c7dcfe22d1fe7c5ed9f7c4c77f6ae9e7c9e27538cf,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_bc/z_real_Drake_EKE.log,556,6c3cec2341a6707c125ff960ba8201fb029d7e7b5f16a76f467cd269c0a0bf62,05g_size_bc / 05f_size_annual,no (synthetic),05h
+stats/size_phi0.8.npy,3728,6d2ee6f4bc6a94e9cfaa8a72fb184a45d18ddc8b9ee8133051ccb3179c72a6d6,05e_size_monthly,no (synthetic),SI S4 (background)
+stats/size_phi0.95.npy,3728,f0ce84a6c1ca3a81de0e92e99f5ee421e095d1d1de6184b2bc0e5d262453e224,05e_size_monthly,no (synthetic),SI S4 (background)
+stats/size_summary.csv,639,6daa9c0658afd32ce4c5665493dc374d4a763dd0047f5a94003dd5bd4847e0de,05h_size_table,no,"Sect. 2.5, SI S4"
+x1/x1_band_adt.npy,2528,db690b2f00d422b8c922082ca99ec39051fa14044528b54c4f814572287b445c,02j_contour_vs_energy,yes,"02k, Fig. S7b"
+x1/x1_band_adt_trend.csv,127,51a2652726cd808303f6463d8a535dcee27340625278dee8a97a6f5f9a03e6d3,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_bathy_split.csv,464,ea97a2a788be30436c32f22f12859c22984faf51a9d8b37133e5802bc44adafb,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_circumpolar_trends.csv,329,e0c54d63ffdb494451dcdd623273298df68aa36d986fdf9ac200b093610b95ce,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_drake_implied_shift.csv,235,d69aa76821e523933a45e1d12ec41e6e32af6804d328ac1f8275a2e971b45441,03t_contour_vs_energy_drake,yes,"Fig. 2b, Sect. 3.1, Table S3"
+x1/x1_drake_period_shift.json,423,72e90cb05a5c7f521ee973eba29dc1d35521cd59fcde74363f96966d210fe3e3,03t_contour_vs_energy_drake,yes,"Fig. 2b, Sect. 3.1, Table S3"
+x1/x1_drake_tracks.npz,838335,53211ab021543ff114ab983248564e336de0bcc11596097ad78f923f70ca70f8,03t_contour_vs_energy_drake,yes,"Fig. 2b, Sect. 3.1, Table S3"
+x1/x1_drake_trends.csv,737,f47e9223a6b285040a5e54e2b541074377aa1a51080a1fef182c6728a42160d4,03t_contour_vs_energy_drake,yes,"Fig. 2b, Sect. 3.1, Table S3"
+x1/x1_implied_shift.csv,161,175da284e355e93e001a72d9b8943bacb53bc83a7208c7280a63ca643c30fc81,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_pertrack.npz,29768,8b3b8f32b3c1a28b192d0267e13f028993743c32f851d774ec1b6b448a400758,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_track_bathy.csv,56862,fb90c8d2543e1af45435879d50c1d3825259050b7781797c1b4e1dfcef17e496,02k_contour_vs_energy_stats,no,"Fig. S7, Sect. 3.2/4, Table S3"
+x1/x1_tracks.npz,4581254,2fca16ffe479ab06ac04da5bf20c93af9579a0cac08c57b582c4fd8adebab93e,02j_contour_vs_energy,yes,"02k, Fig. S7"

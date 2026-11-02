@@ -1,0 +1,22 @@
+region,quantity,product,pct_per_decade,pct_lo,pct_hi,abs_cm2s2_per_decade,p,source
+ACC band,KE,Product 1,4.9,3.1,6.8,13.6,0.003,revision/outputs/retest/retest_summary.csv [allsat|ACC_KE|2001-2025]
+ACC band,KE,Product 4,3.6,2.1,5.2,9.7,0.003,revision/outputs/retest/retest_summary.csv [twosat|ACC_KE|2001-2025]
+ACC band,EKE,Product 1,8.0,3.3,12.8,19.8,0.017,revision/outputs/retest/retest_summary.csv [allsat|ACC_EKE|2001-2025]
+ACC band,EKE,Product 4,3.8,1.3,6.3,8.1,0.02,revision/outputs/retest/retest_summary.csv [twosat|ACC_EKE|2001-2025]
+Pacific,KE,Product 1,7.0,3.4,10.6,18.7,0.013,revision/outputs/retest/retest_summary.csv [allsat|Pacific_KE|2001-2025]
+Pacific,KE,Product 4,5.9,2.9,8.8,15.3,0.007,revision/outputs/retest/retest_summary.csv [twosat|Pacific_KE|2001-2025]
+Pacific,EKE,Product 1,9.3,3.7,15.0,23.5,0.017,revision/outputs/retest/retest_summary.csv [allsat|Pacific_EKE|2001-2025]
+Pacific,EKE,Product 4,5.7,1.3,10.1,12.1,0.033,revision/outputs/retest/retest_summary.csv [twosat|Pacific_EKE|2001-2025]
+Atlantic,KE,Product 1,4.2,0.6,7.7,12.7,0.04,revision/outputs/retest/retest_summary.csv [allsat|Atlantic_KE|2001-2025]
+Atlantic,KE,Product 4,3.0,-0.1,6.2,8.9,0.06,revision/outputs/retest/retest_summary.csv [twosat|Atlantic_KE|2001-2025]
+Atlantic,EKE,Product 1,8.0,0.0,15.9,21.4,0.053,revision/outputs/retest/retest_summary.csv [allsat|Atlantic_EKE|2001-2025]
+Atlantic,EKE,Product 4,3.9,-1.1,9.0,9.0,0.096,revision/outputs/retest/retest_summary.csv [twosat|Atlantic_EKE|2001-2025]
+Indian,KE,Product 1,3.5,1.9,5.1,9.2,0.003,revision/outputs/retest/retest_summary.csv [allsat|Indian_KE|2001-2025]
+Indian,KE,Product 4,1.6,-0.2,3.4,4.1,0.083,revision/outputs/retest/retest_summary.csv [twosat|Indian_KE|2001-2025]
+Indian,EKE,Product 1,5.8,2.3,9.4,13.3,0.01,revision/outputs/retest/retest_summary.csv [allsat|Indian_EKE|2001-2025]
+Indian,EKE,Product 4,1.2,-2.2,4.5,2.3,0.465,revision/outputs/retest/retest_summary.csv [twosat|Indian_EKE|2001-2025]
+ACC band,EKE minus KE (points per decade),Product 1,3.0,-0.1,6.1,,0.06,revision/outputs/retest/retest_summary.csv [ACC EKE-KE allsat]
+ACC band,EKE minus KE (points per decade),Product 4,0.2,-1.1,1.5,,0.741,revision/outputs/retest/retest_summary.csv [ACC EKE-KE twosat]
+ACC band,"EKE, Product 1 minus Product 4 (points per decade)",difference,4.3,-2.2,10.8,,0.12,revision/plan1019/outputs/m1/m1_trends.csv [diff_all-two|ACC_EKE|2001-2025]
+WAKE minus REST (downstream boxes vs rest of band),EKE relative trend difference (points per decade),Product 1,0.1,-3.1,3.3,,0.953,revision/outputs/retest/retest_A7.csv [allsat|2001-2025|EKE|WAKE-REST]; boxes in revision/a5_energy.py
+WAKE minus REST (downstream boxes vs rest of band),EKE relative trend difference (points per decade),Product 4,-0.3,-3.5,2.8,,0.804,revision/outputs/retest/retest_A7.csv [twosat|2001-2025|EKE|WAKE-REST]; boxes in revision/a5_energy.py

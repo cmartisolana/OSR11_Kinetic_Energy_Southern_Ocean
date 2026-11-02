@@ -1,0 +1,55 @@
+,0
+allsat|u_r_bins_all,0.7232623350259576
+allsat|u_n_bins_all,8187
+allsat|u_r_anom_all,0.6120127153794397
+allsat|u_r_bins_north,0.6952311869781361
+allsat|u_n_bins_north,4012
+allsat|u_r_anom_north,0.5980309890375353
+allsat|u_r_bins_south,0.7470385916175495
+allsat|u_n_bins_south,4175
+allsat|u_r_anom_south,0.6460890140668266
+allsat|u_rms_diff_cm_s,15.333638300103544
+allsat|u_mean_profile_r,0.9788410785471598
+allsat|eke_r_transects_north,0.6731483102565133
+allsat|eke_r_annual_north,0.8880781139665831
+allsat|eke_in_trend_pct_dec_north,7.805338790847872
+allsat|eke_in_trend_ci_north,"(np.float64(-58.8), np.float64(74.4))"
+allsat|eke_in_trend_p_north,0.6345514950166113
+allsat|eke_alt_trend_pct_dec_north,10.053956887812019
+allsat|eke_alt_trend_ci_north,"(np.float64(-71.2), np.float64(91.3))"
+allsat|eke_alt_trend_p_north,0.6079734219269103
+allsat|eke_r_transects_icefree,0.6918919313305448
+allsat|eke_r_annual_icefree,0.9238980118371771
+allsat|eke_in_trend_pct_dec_icefree,8.171478194523013
+allsat|eke_in_trend_ci_icefree,"(np.float64(-218.4), np.float64(234.8))"
+allsat|eke_in_trend_p_icefree,0.9069767441860465
+allsat|eke_alt_trend_pct_dec_icefree,7.933065843045262
+allsat|eke_alt_trend_ci_icefree,"(np.float64(-224.4), np.float64(240.2))"
+allsat|eke_alt_trend_p_icefree,0.9136212624584718
+twosat|u_r_bins_all,0.7160388548274969
+twosat|u_n_bins_all,8189
+twosat|u_r_anom_all,0.6029842367163052
+twosat|u_r_bins_north,0.6911390855966969
+twosat|u_n_bins_north,4012
+twosat|u_r_anom_north,0.5929949600694984
+twosat|u_r_bins_south,0.7339274773595797
+twosat|u_n_bins_south,4177
+twosat|u_r_anom_south,0.6281282533368
+twosat|u_rms_diff_cm_s,15.531197021635606
+twosat|u_mean_profile_r,0.9710981793627954
+twosat|eke_r_transects_north,0.6533221730009285
+twosat|eke_r_annual_north,0.8507311117177456
+twosat|eke_in_trend_pct_dec_north,7.805338790847872
+twosat|eke_in_trend_ci_north,"(np.float64(-58.8), np.float64(74.4))"
+twosat|eke_in_trend_p_north,0.6345514950166113
+twosat|eke_alt_trend_pct_dec_north,0.8452040423124473
+twosat|eke_alt_trend_ci_north,"(np.float64(-63.3), np.float64(65.0))"
+twosat|eke_alt_trend_p_north,0.9501661129568106
+twosat|eke_r_transects_icefree,0.6602222774893257
+twosat|eke_r_annual_icefree,0.8811637890768155
+twosat|eke_in_trend_pct_dec_icefree,8.25680072922187
+twosat|eke_in_trend_ci_icefree,"(np.float64(-218.8), np.float64(235.3))"
+twosat|eke_in_trend_p_icefree,0.9069767441860465
+twosat|eke_alt_trend_pct_dec_icefree,2.9353242577235648
+twosat|eke_alt_trend_ci_icefree,"(np.float64(-220.2), np.float64(226.0))"
+twosat|eke_alt_trend_p_icefree,0.9667774086378738

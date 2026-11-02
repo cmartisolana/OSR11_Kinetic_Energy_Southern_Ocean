@@ -1,11 +1,42 @@
-cff-version: 1.0.0
-message: "If you use this software, please cite it as below."
-authors:
-- family-names: "Martí-Solana"
-  given-names: "Cristina"
-  orcid: "https://orcid.org/0009-0002-8276-7717"
-title: "Codes for Kinetic Energy Variability and Eddy Saturation in the Southern Ocean"
-version: 1.0.0
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the archived repository."
+type: software
+title: "Observational constraints on eddy saturation in the Antarctic Circumpolar Current: analysis code"
+version: "2.0.0"
+date-released: "2026-11-02"
+license: MIT
 doi: 10.5281/zenodo.21485764
-date-released: 2026-07-22
-url: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"
+repository-code: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"
+# TODO (author): add ORCIDs.
+authors:
+  - family-names: "Martí-Solana"
+    given-names: "Cristina"
+    affiliation: "Mediterranean Institute for Advanced Studies (IMEDEA), CSIC-UIB, Esporles, Spain"
+    email: "cmarti@imedea.uib-csic.es"
+keywords:
+  - "Antarctic Circumpolar Current"
+  - "eddy saturation"
+  - "eddy kinetic energy"
+  - "satellite altimetry"
+  - "Drake Passage"
+preferred-citation:
+  type: article
+  title: "Observational constraints on eddy saturation in the Antarctic Circumpolar Current"
+  authors:
+    - family-names: "Martí-Solana"
+      given-names: "Cristina"
+    - family-names: "Ruiz"
+      given-names: "Simón"
+    - family-names: "Combes"
+      given-names: "Vincent"
+    - family-names: "Barceló-Llull"
+      given-names: "Bàrbara"
+    - family-names: "Ballarotta"
+      given-names: "Maxime"
+    - family-names: "Pascual"
+      given-names: "Ananda"
+  journal: "State of the Planet"
+  notes: "Copernicus Ocean State Report 11, Chapter 2 (manuscript sp-2026-11)"
+  publisher:
+    name: "Copernicus Publications"
+  year: 2026

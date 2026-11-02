@@ -1,0 +1,2 @@
+series,units,theil_sen_slope_per_year,theil_sen_ci95_low_per_year,theil_sen_ci95_high_per_year,mann_kendall_tau,mann_kendall_p,significant_05
+drake_passage_altimetry_surface_transport,m2_per_s,168.08622559469876,-184.2549846281828,478.51214275784696,0.15217391304347827,0.3091626948735827,False

@@ -1,0 +1,22 @@
+,0
+h_noseas_cm|r_transects_U_tot,-0.19167748196131368
+h_noseas_cm|r_annual_U_tot,-0.30173426946714205
+h_noseas_cm|r_transects_U_north,-0.18745581450770096
+h_noseas_cm|r_annual_U_north,-0.2639170522512004
+h_noseas_cm|r_transects_U_south,0.018755351032612024
+h_noseas_cm|r_annual_U_south,0.04621966951048864
+h_noseas_cm|r_monthly_Tperm_gv,-0.23755062565341625
+h_noseas_cm|n_transects_matched,511
+T_hogg_model_calibrated_Sv|r_transects_U_tot,0.21508916833637234
+T_hogg_model_calibrated_Sv|r_annual_U_tot,0.34405560126180806
+T_hogg_model_calibrated_Sv|r_transects_U_north,0.2403977426456005
+T_hogg_model_calibrated_Sv|r_annual_U_north,0.39963361138329495
+T_hogg_model_calibrated_Sv|r_transects_U_south,-0.05803095094142779
+T_hogg_model_calibrated_Sv|r_annual_U_south,-0.15764092243539962
+T_hogg_model_calibrated_Sv|r_monthly_Tperm_gv,0.2742616621229835
+T_hogg_model_calibrated_Sv|n_transects_matched,511
+T_hogg|trend_Sv_per_decade,1.9349842409753264
+T_hogg|ci,"(0.28314913518848045, 3.586819346762172)"
+T_hogg|p,0.026578073089700997
+T_hogg|record,2001-2025
+index|mean_coverage,0.21922586948026568

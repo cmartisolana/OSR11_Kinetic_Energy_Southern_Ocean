@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the archived repository."
+type: software
+title: "Surface intensification of the Antarctic Circumpolar Current from 2001 to 2025: analysis code"
+version: "2.1"
+date-released: "2026-10-26"
+license: MIT
+doi: 10.5281/zenodo.21485764
+repository-code: "https://github.com/<user>/<repo>"  # TODO: public repository URL, if any
+authors:
+  - family-names: "Martí-Solana"
+    given-names: "Cristina"
+    affiliation: "Mediterranean Institute for Advanced Studies (IMEDEA), CSIC-UIB, Esporles, Spain"
+    email: "cmarti@imedea.uib-csic.es"
+preferred-citation:
+  type: article
+  title: "Surface intensification of the Antarctic Circumpolar Current from 2001 to 2025"
+  authors:
+    - family-names: "Martí-Solana"
+      given-names: "Cristina"
+    - family-names: "Ruiz"
+      given-names: "Simón"
+    - family-names: "Combes"
+      given-names: "Vincent"
+    - family-names: "Barceló-Llull"
+      given-names: "Bàrbara"
+    - family-names: "Ballarotta"
+      given-names: "Maxime"
+    - family-names: "Pascual"
+      given-names: "Ananda"
+  journal: "State of the Planet (Ocean State Report 11, Chapter 2)"
+  publisher:
+    name: "Copernicus Publications"
+  year: 2026
+  # doi: TODO once assigned
