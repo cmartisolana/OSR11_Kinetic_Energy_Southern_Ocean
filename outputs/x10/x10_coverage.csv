@@ -1,0 +1,4 @@
+series,coverage,coverage_detrended,n_outer
+KE,0.9475,0.935,400
+EKE,0.965,0.95,400
+slope,0.965,0.945,400

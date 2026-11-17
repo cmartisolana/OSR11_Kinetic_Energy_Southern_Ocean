@@ -9,8 +9,7 @@ Run     : python scripts/03_drake/03c_insitu_velocity_fix.py     (always after 0
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, numpy as np, pandas as pd, scipy.io as sio
-from pathlib import Path
+import numpy as np, pandas as pd, scipy.io as sio
 from osr11 import rstats as R, paths as PA
 GV, OUT = PA.GV23_DIR, PA.dk(5)
 LV = sio.loadmat(GV/"Datasets"/"lmgvelos38nb_50_300.mat", squeeze_me=True, struct_as_record=False)["lmgdata"]

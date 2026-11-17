@@ -18,7 +18,6 @@ from typing import List, Dict, Optional
 
 # Optional numba acceleration
 try:
-    import numba
     from numba import njit
     _HAVE_NUMBA = True
 except Exception:
@@ -140,7 +139,6 @@ if _HAVE_NUMBA:
 
                     if total > 0.0:
                         # cumulative
-                        cum0 = 0.0
                         # We will search for half along segments
                         half = total * 0.5
                         cum = 0.0
@@ -266,8 +264,6 @@ def detect_envelopes_on_profile(profile: np.ndarray,
             continue
 
         seg_profile = profile[iseg:jseg+1]
-        seg_lats = lats[iseg:jseg+1]
-        seg_lons = lons[iseg:jseg+1]
 
         rel_peak_idx = int(np.nanargmax(seg_profile))
         peak_val = float(seg_profile[rel_peak_idx])

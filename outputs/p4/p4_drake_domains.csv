@@ -1,0 +1,7 @@
+product,domain,n_bins,pct_increase_2018_2025_vs_2001_2017
+P1 (dk12_band_annual_allsat),upstream 86-68W,9,26.973949015333744
+P1 (dk12_band_annual_allsat),passage 68-58W,5,24.76548519138031
+P1 (dk12_band_annual_allsat),downstream 58-40W,9,11.250267352375886
+P4 (levels on P1 mean ADT),upstream 86-68W,9,19.20226672968093
+P4 (levels on P1 mean ADT),passage 68-58W,5,15.25488668837216
+P4 (levels on P1 mean ADT),downstream 58-40W,9,2.152756151138324

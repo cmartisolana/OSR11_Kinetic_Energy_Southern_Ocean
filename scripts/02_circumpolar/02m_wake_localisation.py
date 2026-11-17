@@ -25,7 +25,7 @@ Specification (written before computing any of the statistics below; 2026-10-08)
     share of area and of mean EKE.
 
 Purpose : relative EKE trend downstream of the four major topographic features (WAKE) versus the rest of the ACC band (REST);
-          primary result cited in the main text via SI S1 / Table S1 (relative wake-vs-rest difference not significant,
+          primary result cited in the main text via SI S2 (relative wake-vs-rest difference not significant,
           p = 0.95 with the recalibrated test in outputs/retest/retest_A7.csv). Moved back from the working repository's
           archive (revision_superseded/analyses_not_in_v2.1/a7_localisation.py) into the final pipeline on 2 Nov 2026.
 Inputs  : $OSR11_DATA/monthly_<product> (00a, for the masks and areas), outputs/a5/a5_series_<product>.csv (02a)
@@ -37,7 +37,6 @@ Seeds   : rstats defaults (seed=0).
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
 import sys
-from pathlib import Path
 import numpy as np, pandas as pd, xarray as xr
 
 from osr11 import rstats as R, paths as PA  # noqa: E402

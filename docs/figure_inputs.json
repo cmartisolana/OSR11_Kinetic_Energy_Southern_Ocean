@@ -1,0 +1,114 @@
+{
+ "fig1_halfpower_method.py": [
+  "base/mean_adt.nc",
+  "base/sea_ice_mask.nc",
+  "fig1/clim_profile_147.9.npy",
+  "fig1/monthly_allsat_2001_01_uv.nc",
+  "x6/x6_relthr_tracks.npz"
+ ],
+ "fig2_drake.py": [
+  "base/bathymetry_so.nc",
+  "base/clim_allsat.nc",
+  "d1/d1b_track.csv",
+  "drake/dk10/dk10_hp_density_p2.npz",
+  "drake/dk24/dk24_stream_trends.csv",
+  "drake/dk34/dk34_drake_fields.npz",
+  "drake/dk5/dk5_stream_edges.csv",
+  "drake/dk5/dk5_trends.csv",
+  "drake/dk8/dk8_along_acc_fronts_allsat.csv",
+  "x1/x1_drake_period_shift.json",
+  "x7/x7_composite_annual_drake.npz",
+  "x7/x7_tracks.npz",
+  "x7/x7_trends.csv"
+ ],
+ "fig3_circumpolar.py": [
+  "a1/a1_maps_bc.nc",
+  "a5/a5_series_allsat.csv",
+  "base/bathymetry_so.nc",
+  "base/clim_allsat.nc",
+  "base/sea_ice_mask.nc",
+  "drake/dk12/dk12_band_series_allsat.npz",
+  "drake/dk12/dk12_band_trends_allsat.csv",
+  "drake/dk14/dk14_hp_density_circ.npz",
+  "retest/retest_summary.csv",
+  "x7/x7_composite_annual_circ.npz",
+  "x7/x7_tracks.npz",
+  "x7/x7_trends.csv"
+ ],
+ "fig4_wind_slope.py": [
+  "base/bathymetry_so.nc",
+  "base/clim_allsat.nc",
+  "base/sea_ice_mask.nc",
+  "drake/dk12/dk12_band_series_allsat.npz",
+  "f3w/f3w_wind_map.nc",
+  "f4/f4_tilt_maps.nc",
+  "f4e/f4e_results.csv",
+  "f4e/f4e_series.csv",
+  "f4m/f4m_map.nc",
+  "x10/x10_intervals.csv",
+  "x12/x12_lagcorr.csv",
+  "x12/x12_summary.csv",
+  "x9/x9_sensitivity_log.csv"
+ ],
+ "figS1_drake_section.py": [
+  "c04/c04_results.csv",
+  "drake/dk24/dk24_section_fields_allsat.npz",
+  "drake/dk25/dk25_profile_trends.csv",
+  "drake/dk3/dk3_summary.csv",
+  "drake/dk3/dk3_velocity_profile_allsat.csv",
+  "drake/dk3/dk3_velocity_profile_twosat.csv",
+  "drake/dk34/dk34_drake_fields.npz",
+  "drake/dk39/dk39_transport_bins.csv",
+  "drake/dk5/dk5_stream_edges.csv",
+  "drake/dk5/dk5_trends.csv"
+ ],
+ "figS2_timing.py": [
+  "a5/a5_series_allsat.csv",
+  "a5/a5_series_twosat.csv",
+  "drake/dk12/dk12_band_annual_allsat.csv"
+ ],
+ "figS3_products.py": [
+  "a1/a1_maps_bc.nc",
+  "a5/a5_series_allsat.csv",
+  "a5/a5_series_twosat.csv",
+  "base/bathymetry_so.nc",
+  "base/clim_allsat.nc",
+  "base/sea_ice_mask.nc",
+  "drake/dk12/dk12_band_series_allsat.npz",
+  "drake/dk12/dk12_band_trends_allsat.csv",
+  "p4/p4_09_relthr_trends.csv",
+  "p4/p4_bins_trends.csv",
+  "p4/p4_eke_trend_map.nc",
+  "p4/p4_lagcorr.csv",
+  "p4/p4_lagcorr_summary.csv",
+  "p4/p4_summary.csv",
+  "retest/retest_summary.csv",
+  "x7/x7_trends.csv"
+ ],
+ "figS4_previous_studies.py": [
+  "m1/m1_previous_studies.csv",
+  "x11/x11_lag_corr.csv"
+ ],
+ "figS5_pathway_robustness.py": [
+  "a2/a2_retention_trends.csv",
+  "retest/retest_summary.csv",
+  "x1/x1_bathy_split.csv",
+  "x7/x7_trends.csv"
+ ],
+ "figS6_occurrence_adt.py": [
+  "base/bathymetry_so.nc",
+  "base/sea_ice_mask.nc",
+  "s6/s6_occurrence_relthr.json",
+  "s6/s6_occurrence_relthr.npz",
+  "x1/x1_band_adt.npy",
+  "x7/x7_implied_shift.csv",
+  "x7/x7_tracks.npz",
+  "x7/x7_trends.csv"
+ ],
+ "figS7_position_longitude.py": [
+  "base/bathymetry_so.nc",
+  "base/clim_allsat.nc",
+  "drake/dk12/dk12_band_series_allsat.npz",
+  "x6/x6_relthr_bins.csv"
+ ]
+}

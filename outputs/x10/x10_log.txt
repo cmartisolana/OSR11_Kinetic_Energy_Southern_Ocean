@@ -1,0 +1,6 @@
+KE: b = 0.50 [0.11, 0.89] | detrended 0.29 [0.14, 0.44] | residual AR(1) 0.38 -> 0.48
+EKE: b = 0.90 [0.18, 1.61] | detrended 0.55 [0.23, 0.89] | residual AR(1) 0.50 -> 0.61
+slope: b = 0.09 [-0.03, 0.20] | detrended 0.04 [-0.03, 0.11] | residual AR(1) 0.11 -> 0.17
+  nested coverage KE: trends retained 0.948, detrended 0.935 (n = 400; MC s.e. ~0.011)
+  nested coverage EKE: trends retained 0.965, detrended 0.950 (n = 400; MC s.e. ~0.011)
+  nested coverage slope: trends retained 0.965, detrended 0.945 (n = 400; MC s.e. ~0.011)

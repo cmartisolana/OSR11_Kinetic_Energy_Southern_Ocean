@@ -3,7 +3,7 @@ message: "If you use this code, please cite the article and the archived reposit
 type: software
 title: "Observational constraints on eddy saturation in the Antarctic Circumpolar Current: analysis code"
 version: "2.0.0"
-date-released: "2026-11-02"
+date-released: "2026-11-17"
 license: MIT
 doi: 10.5281/zenodo.21485764
 repository-code: "https://github.com/cmartisolana/OSR11_Kinetic_Energy_Southern_Ocean"

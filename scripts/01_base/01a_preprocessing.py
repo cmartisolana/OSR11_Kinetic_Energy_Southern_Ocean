@@ -1,7 +1,7 @@
 """Base fields from the daily altimetry: permanent sea-ice mask, long-term mean velocity and mean ADT.
 
 Mechanical export of the first-submission notebook 00_preprocessing.ipynb (kept unchanged in
-archive/working_tree_2026-11-02/archive/first_submission/notebooks/); only the input/output paths were changed and the
+first_submission/notebooks/ of the working repository); only the input/output paths were changed and the
 verification plot was dropped. Not re-run since the first submission: the distributed outputs/base/mean_adt.nc and
 sea_ice_mask.nc are the files it wrote then.
 
@@ -47,7 +47,6 @@ _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # reposi
 
 # %% [cell 2]
 import os
-import sys
 import numpy as np
 import xarray as xr
 

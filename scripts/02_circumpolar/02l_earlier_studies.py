@@ -12,7 +12,7 @@ Trend test: rstats.trend_bcz (deseasonalised Theil-Sen; calibrated AR noise; max
 Note: with M1_Y0=1993 the mean flow ubar is the 1993-2025 mean and the ice mask covers 1993-2025, so 2001-2025
 values will differ slightly from the default run.
 
-Purpose : EKE trends over the regions of earlier altimetric studies, both products (Fig. S1d).
+Purpose : EKE trends over the regions of earlier altimetric studies, both products (SI S4 and Fig. S4 via 05k_previous_studies; product difference).
 Inputs  : $OSR11_DATA/monthly_allsat and monthly_twosat (00a)
 Outputs : outputs/m1/m1_series_<product>.csv, m1_masks_<product>.csv, m1_trends.csv (m1_trends.csv distributed)
 Run     : python scripts/02_circumpolar/02l_earlier_studies.py      (env M1_Y0, default 2001)
@@ -20,8 +20,7 @@ Seeds   : rstats.trend_bcz default seed (0).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, os
-from pathlib import Path
+import os
 import numpy as np, pandas as pd, xarray as xr
 from multiprocessing import Pool
 from osr11 import rstats as R, paths as PA

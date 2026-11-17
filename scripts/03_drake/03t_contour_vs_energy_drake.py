@@ -6,11 +6,11 @@ Purpose : on the retained circumpolar half-power tracks (02c, keep = True; 62 tr
           position (Fig. 2b inset; Sect. 3.1).
           Changes from the working copy: (1) the two interleaved docstrings that made the file fail to compile are merged;
           (2) the Drake columns (90-35 W) of adt_mean are read directly from the monthly files, replacing extract_drake_cols.py,
-          which deleted every monthly file it read (that script is kept, inert, only in archive/); (3) outputs go to
+          which deleted every monthly file it read (that script is not part of this repository); (3) outputs go to
           outputs/x1/ and the late-minus-early shifts, previously only printed, are written to x1_drake_period_shift.json.
 Inputs  : outputs/a2/tracks_baseline.npz (02c), outputs/base/mean_adt.nc, $OSR11_DATA/monthly_allsat (00a)
 Outputs : outputs/x1/x1_drake_trends.csv, x1_drake_period_shift.json (Fig. 2b inset), x1_drake_tracks.npz,
-          x1_drake_implied_shift.csv (contour shift implied by the ADT rise / median local ADT gradient; SI Table S3)
+          x1_drake_implied_shift.csv (contour shift implied by the ADT rise / median local ADT gradient; SI S6)
 Run     : python scripts/03_drake/03t_contour_vs_energy_drake.py     (~1 min)
 Seeds   : trend_bcz(seed=0).
 """
@@ -72,7 +72,7 @@ def run(lo, hi, label):
         shift[nm] = dict(mean=float(np.nanmean(d)), median=float(np.nanmedian(d)), frac_south=float((d < 0).mean()))
         print(f"  {nm:8s} late-minus-early mean position: {np.nanmean(d):+.1f} km (median {np.nanmedian(d):+.1f}; southward at {(d<0).mean()*100:.0f} % of tracks)")
     # |dADT/dy| of the mean ADT at each track's climatological half-power latitude (cm per km); the working copy took the median
-    # over the whole latitude column, which mixes in the flat flanks; SI Table S3 uses the value at the half-power point
+    # over the whole latitude column, which mixes in the flat flanks; SI S6 uses the value at the half-power point
     g = np.array([abs(np.interp(lhc_s[q], lat, np.gradient(M[:, k], lat * KM))) for q, k in enumerate(jj)]) * 100
     imp = -(rows[2]['slope'] / (np.nanmedian(g) * 10)) * 10
     print(f"  median |dADT/dlat| {np.nanmedian(g)*10:.1f} cm per 10 km -> implied contour shift from adt_hp trend: {imp:+.1f} km/decade")

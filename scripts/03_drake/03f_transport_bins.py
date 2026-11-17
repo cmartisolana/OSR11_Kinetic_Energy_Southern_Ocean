@@ -4,7 +4,7 @@ NaN in months when any point of the bin is ice-covered (ice fraction > 0.10). Tr
 2001-2025 monthly where complete, else annual means (>= 6 months); Oct 2005-Apr 2019 annual means (>= 3 months), as dk5.
 Also the latitude of each bin centre on the track, to plot in situ (km) bins on the latitude axis.
 
-Purpose : surface transport per unit depth per 25-km bin along the track, passage coordinates (Fig. S4).
+Purpose : surface transport per unit depth per 25-km bin along the track, passage coordinates (Fig. S3b bin latitudes).
 Inputs  : outputs/drake/dk24/dk24_section_fields_allsat.npz (03d)
 Outputs : outputs/drake/dk39/dk39_transport_bins.csv
 Run     : python scripts/03_drake/03f_transport_bins.py          (no raw data needed)
@@ -12,8 +12,6 @@ Seeds   : rstats.trend_bcz default seed (0).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys
-from pathlib import Path
 import numpy as np, pandas as pd
 from osr11 import rstats as R, paths as PA
 SEC, OUT = PA.dk(24) / "dk24_section_fields_allsat.npz", PA.dk(39)

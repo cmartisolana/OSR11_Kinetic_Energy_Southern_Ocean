@@ -7,8 +7,8 @@ For each retained track (outputs/a2/tracks_baseline.npz, keep = True) and month:
               -> what a fixed-height-contour front would do
 Writes outputs/x1/x1_tracks.npz with the three (300 x N) arrays plus metadata.
 
-Purpose : contour-vs-energy test, extraction step (SI S3, Fig. S7; Sect. 3.2 and Discussion: -11.5 km per decade for the
-          contour, no significant half-power displacement). Also writes the monthly ACC-band mean ADT drawn in Fig. S7b
+Purpose : contour-vs-energy test, extraction step (SI S6, Fig. S6; Sect. 3.2 and Discussion: -11.5 km per decade for the
+          contour, no significant half-power displacement). Also writes the monthly ACC-band mean ADT drawn in Fig. S6b
           (added for the publication repository: cos-latitude weighted mean of adt_mean over the pixels whose 2001-2025
           mean ADT lies in -0.6..+0.2 m; the working repository held this series without a script. Identical to the
           figure agent's reconstruction with the ice mask applied, because ice-masked pixels have no mean ADT in the band).
@@ -32,7 +32,7 @@ madt = madt.interp(latitude=lat, longitude=lon).values if madt.shape != (lat.siz
 lev = np.array([np.interp(lhc[k], lat, madt[:, j[k]]) for k in range(j.size)])
 W = 3.0   # +- window (deg) around the mean half-power latitude for the contour search
 adt_hp = np.full(lat_hp.shape, np.nan); lat_c = np.full(lat_hp.shape, np.nan)
-# ACC-band mean ADT (Fig. S7b): band from the 2001-2025 mean ADT, cos-lat weights, no ice mask
+# ACC-band mean ADT (Fig. S6b): band from the 2001-2025 mean ADT, cos-lat weights, no ice mask
 band = np.isfinite(madt) & (madt >= -0.6) & (madt <= 0.2); wb = np.cos(np.radians(lat))[:, None] * band; band_adt = np.full(len(files), np.nan)
 for m, f in enumerate(files):
     with xr.open_dataset(f) as d:

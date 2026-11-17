@@ -10,7 +10,7 @@ and by latitude band); (3) section-mean EKE north of 58.5S and over the ice-free
 (trend_bcz, annual) 2005-2019, in % of mean per decade.
 Note: a monthly mean field is compared with a 2-day transect, so mesoscale noise lowers transect-level correlations.
 
-Purpose : altimetry vs LM Gould ADCP: mean velocity profiles, correlations, section EKE (SI S2, Figs. S3-S4).
+Purpose : altimetry vs LM Gould ADCP: mean velocity profiles, correlations, section EKE (SI S1.4, S3, Fig. S3a).
 Inputs  : $GV23_DIR (Gutierrez-Villanueva et al. 2023 archive, doi:10.5281/zenodo.10044261); $OSR11_DATA/monthly_allsat and monthly_twosat (00a)
 Outputs : outputs/drake/dk3/dk3_velocity_profile_<p>.csv, dk3_eke_transects_<p>.csv, dk3_eke_annual_<band>_<p>.csv, dk3_summary.csv
 Run     : python scripts/03_drake/03h_insitu_validation.py
@@ -18,8 +18,6 @@ Seeds   : rstats.trend_bcz default seed (0).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys
-from pathlib import Path
 import numpy as np, pandas as pd, xarray as xr, scipy.io as sio
 from osr11 import rstats as R, paths as PA
 GV, OUT = PA.GV23_DIR, PA.dk(3)

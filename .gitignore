@@ -4,10 +4,13 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv*/
-.claude/
 # Raw data and caches (not distributed; see README "Data")
 /data/
 /cache/
+# Scratch copy written by `make reproduce` (scripts/reproduce.py)
+/reproduce/
+# pytest
+.pytest_cache/
 *.tmp.nc
 # Large caches written by the processing steps (regenerated; not distributed)
 /outputs/drake/dk5/dk5_section_fields.npz
@@ -15,3 +18,14 @@ __pycache__/
 /outputs/drake/dk10/dk10_monthly_points.npy
 /outputs/a2/tracks_[!b]*.npz
 /outputs/a2/unmatched_*.csv
+/outputs/x7/x7_composite_circ.npz
+/outputs/x7/x7_composite_drake.npz
+/outputs/x7/x7_points_all.npy
+/outputs/p4/p4_08_tracks_*.npz
+/outputs/p4/p4_band_mask.npz
+/outputs/p4/p4_bins_series*.npz
+/outputs/p4/p4_wind_domains.npz
+# notebooks: checkpoints and scratch
+/notebooks/.ipynb_checkpoints/
+# figures re-rendered by `make figures`
+/figures_out/

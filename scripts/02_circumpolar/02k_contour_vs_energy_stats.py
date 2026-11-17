@@ -11,7 +11,7 @@ Purpose : trends (calibrated Theil-Sen, rstats.trend_bcz, 300 null series) of th
           3500 m depth. This definition reproduces the working-repository x1_track_bathy.csv exactly (checked 2 Nov 2026).
 Inputs  : outputs/x1/x1_tracks.npz, outputs/x1/x1_band_adt.npy (02j), outputs/base/bathymetry_so.nc, outputs/base/mean_adt.nc
 Outputs : outputs/x1/x1_circumpolar_trends.csv, x1_pertrack.npz, x1_track_bathy.csv, x1_bathy_split.csv, x1_band_adt_trend.csv,
-          x1_implied_shift.csv (contour shift implied by the ADT rise / median local ADT gradient; SI Table S3)
+          x1_implied_shift.csv (contour shift implied by the ADT rise / median local ADT gradient; SI S6)
 Run     : python scripts/02_circumpolar/02k_contour_vs_energy_stats.py      (no raw data needed; ~10 min)
 Seeds   : trend_bcz(seed=0).
 """
@@ -63,7 +63,7 @@ for s in ('Atlantic', 'Indian', 'Pacific'):
         line += f' | {nm} {10*rr.slope:+.2f} p={rr.pvalue:.2f}'
     print(line)
 
-# contour displacement implied by the ADT rise at the half-power point / median local meridional ADT gradient (SI Table S3)
+# contour displacement implied by the ADT rise at the half-power point / median local meridional ADT gradient (SI S6)
 madt = xr.open_dataset(PA.MEAN_ADT)["mean_adt"]; Mv = madt.values; mlat = madt.latitude.values.astype(float)
 g = np.array([abs(np.interp(lhc_k, mlat, np.gradient(Mv[:, k], mlat * KM))) for lhc_k, k in zip(Z['lat_hp_clim'], Z['j'])]) * 100   # cm per km, at the half-power point
 imp = -(rows[2]['slope'] / (np.nanmedian(g) * 10)) * 10
@@ -71,7 +71,7 @@ pd.DataFrame([dict(region='circumpolar', median_grad_cm_per_10km=float(np.nanmed
                    implied_contour_shift_km_per_decade=float(imp))]).to_csv(O / 'x1_implied_shift.csv', index=False)
 print(f"median |dADT/dlat| {np.nanmedian(g)*10:.1f} cm per 10 km -> implied contour shift {imp:+.1f} km/decade")
 
-# ACC-band mean ADT (Fig. S7b)
+# ACC-band mean ADT (Fig. S6b)
 band = np.load(O / 'x1_band_adt.npy') * 100
 r = bcz(band)
 pd.DataFrame([dict(series='band_adt', unit='cm per decade', slope=10 * r['slope'], lo=10 * r['ci_lo'], hi=10 * r['ci_hi'], p=r['p'])]).to_csv(

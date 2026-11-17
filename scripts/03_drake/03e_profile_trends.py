@@ -4,7 +4,7 @@ Points with ice fraction > 0.10 masked per month. 2001-2025: monthly test where 
 annual means (>= 6 months); Oct 2005-Apr 2019: annual means (>= 3 months), as dk5. Also mean profiles for 2001-2012 and
 2013-2025. Usage: python dk25_profile_trends.py <revision dir> <dk24 dir> <out dir>
 
-Purpose : trend of the altimetric cross-track surface velocity by 0.25-deg latitude along the track (Fig. S4).
+Purpose : trend of the altimetric cross-track surface velocity by 0.25-deg latitude along the track (Fig. S3, ice-covered part).
 Inputs  : outputs/drake/dk24/dk24_section_fields_allsat.npz (03d)
 Outputs : outputs/drake/dk25/dk25_profile_trends.csv
 Run     : python scripts/03_drake/03e_profile_trends.py          (no raw data needed)
@@ -12,8 +12,6 @@ Seeds   : rstats.trend_bcz default seed (0).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys
-from pathlib import Path
 import numpy as np, pandas as pd
 from osr11 import rstats as R, paths as PA
 DK24, OUT = PA.dk(24), PA.dk(25)

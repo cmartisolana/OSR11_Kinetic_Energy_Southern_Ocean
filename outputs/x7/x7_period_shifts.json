@@ -1,0 +1,23 @@
+{
+ "circumpolar": {
+  "halfpower_late_minus_early_km_split2016": -0.9,
+  "contour_late_minus_early_km_split2016": -23.2,
+  "halfpower_late_minus_early_km_split2018": 0.9,
+  "contour_late_minus_early_km_split2018": -21.0,
+  "n_tracks": 1826
+ },
+ "Drake region 86-40W": {
+  "halfpower_late_minus_early_km_split2016": 13.2,
+  "contour_late_minus_early_km_split2016": -24.1,
+  "halfpower_late_minus_early_km_split2018": 3.6,
+  "contour_late_minus_early_km_split2018": -23.8,
+  "n_tracks": 216
+ },
+ "Drake 70-55W": {
+  "halfpower_late_minus_early_km_split2016": -3.0,
+  "contour_late_minus_early_km_split2016": -13.6,
+  "halfpower_late_minus_early_km_split2018": -8.6,
+  "contour_late_minus_early_km_split2018": -13.5,
+  "n_tracks": 61
+ }
+}

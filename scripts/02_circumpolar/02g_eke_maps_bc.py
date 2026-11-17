@@ -22,8 +22,7 @@ Seeds   : default_rng(0) / (1) for the class samples and null series.
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import os, sys
-from pathlib import Path
+import os
 import numpy as np, xarray as xr
 from concurrent.futures import ProcessPoolExecutor
 from scipy.stats import norm

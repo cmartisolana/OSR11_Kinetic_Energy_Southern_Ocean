@@ -10,8 +10,6 @@ Run     : python scripts/03_drake/03k_drake_maps.py
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys
-from pathlib import Path
 import numpy as np, pandas as pd, xarray as xr
 from osr11 import paths as PA
 EDG, OUT = PA.dk(5) / "dk5_stream_edges.csv", PA.dk(34)

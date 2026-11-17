@@ -4,7 +4,7 @@ process: ar1_0.5 | ar1_0.8 | ar1_0.95 | ar2 | annual_ar1_0.5 | real_ACC_EKE | re
 'real_*': the AR model (bias-corrected) fitted to the detrended deseasonalised observed series.
 
 Purpose : false-positive rate of the bias-corrected tests (mode single | cal | z = trend_bcz) on trend-free series from AR
-          processes, including AR models fitted to the observed ACC and Drake-box EKE (SI S4: 3-5 % for monthly series).
+          processes, including AR models fitted to the observed ACC and Drake-box EKE (SI S1.7: 3-5 % for monthly series).
 Inputs  : outputs/a5/a5_series_allsat.csv (02a), outputs/a6/a6b_drake_box_series.csv (03u) for the 'real_*' processes
 Outputs : outputs/stats/size_bc/size_bc_<mode>_<process>.npy; progress printed (the shipped *.log files)
 Run     : python scripts/05_stats/05g_size_bc.py ar1_0.8 300 outputs/stats/size_bc z > outputs/stats/size_bc/z_ar1_0.8.log
@@ -13,7 +13,7 @@ Run     : python scripts/05_stats/05g_size_bc.py ar1_0.8 300 outputs/stats/size_
 Seeds   : CHANGED for the publication repository. The working copy seeded the generator with abs(hash(process)) % 2**32;
           Python string hashing is randomised per interpreter process (PYTHONHASHSEED), so those runs cannot be repeated
           exactly. The seed is now zlib.crc32(process) (stable). A re-run therefore draws different synthetic series from
-          the shipped logs and the SI S4 false-positive rates may shift slightly (by Monte Carlo error, about +-1.3
+          the shipped logs and the SI S1.7 false-positive rates may shift slightly (by Monte Carlo error, about +-1.3
           percentage points at 5 % with 300 replicates).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702

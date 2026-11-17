@@ -12,7 +12,7 @@ Run     : python scripts/03_drake/03o_halfpower_density_drake.py
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, glob, numpy as np, xarray as xr
+import numpy as np, xarray as xr
 from osr11.drake_halfpower import F, FI, P, MAXE, detect_all  # noqa: F401
 from osr11 import paths as PA
 OUT = str(PA.dk(10))

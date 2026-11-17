@@ -1,4 +1,4 @@
-"""Purpose : false-positive rate and CI coverage of trend_bcz for short annual AR(1) series (SI S4: up to 9.5 % for 15 values).
+"""Purpose : false-positive rate and CI coverage of trend_bcz for short annual AR(1) series (SI S1.7: up to 9.5 % for 15 values).
 Inputs  : none (synthetic)
 Outputs : printed (the shipped logs are outputs/stats/size_bc/ann15.log and ann25.log)
 Run     : python scripts/05_stats/05f_size_annual.py 15 0.5 200 > outputs/stats/size_bc/ann15.log

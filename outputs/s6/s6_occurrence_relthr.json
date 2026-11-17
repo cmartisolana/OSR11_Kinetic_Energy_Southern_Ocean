@@ -1,0 +1,45 @@
+{
+ "method": "Occurrence of the monthly half-power points for SI Fig. S6a,b with the RELATIVE threshold (20 % of each longitude's\nclimatological maximum mean KE, the detection used throughout the paper; 10 Nov 2026).\n\nInput : <outputs>/x7/x7_points_all.npy (month index 0-299 from Jan 2001, lon, lat of every monthly half-power point in the ACC\n        band; producer scripts/02_circumpolar/02p_pathway_products.py).\nMethod: exactly review_calc/c06_overlap_null.py (Drake) and c07_overlap_null_circ.py (circumpolar): counts per whole year on\n        the grids below, density = % of months per grid longitude of the cell column (1/8 deg grid: 4 longitudes per 0.5 deg\n        Drake column, 8 per 1 deg circumpolar column), Gaussian smoothing sigma = 1 cell, 10 % level, cos(lat)-weighted\n        intersection over union (IoU) of the two smoothed 10 % regions.  Periods 2001-2017 / 2018-2025 (and 2001-2015 /\n        2016-2025 for reference).\nDomain: the fixed-threshold Drake points (c06a) exclude the Malvinas Current (-62 <= lon < -56 and lat > -52) and keep\n        ADT in [-0.6, 0.2] m; the x7 points already satisfy the ADT window (ACC-band mask) and the same Malvinas exclusion is\n        applied here to both domains (467 Drake-box points, none of them inside a 10 % region: the IoU is unchanged).  The\n        histogram grids bound the domains (Drake: 86-34 W, 64-46 S; circumpolar 65-35 S).\nChecks: (1) the fixed-threshold overlaps from review_calc/c06a_drake_points.npy, (2) that the x3 density files are the raw\n        (unsmoothed) fixed-threshold grids, (3) that obs18 of outputs/x3/x3_overlap_2018split.json is already the\n        relative-threshold value, (4) the random 17/8 whole-year-split null (2000 draws, seed 20261105) against that json.",
+ "relative_threshold": {
+  "drake": {
+   "split2018": 0.6479,
+   "split2016": 0.6765,
+   "split2018_level5": 0.8444,
+   "split2018_level15": 0.6318,
+   "split2018_without_malvinas_exclusion": 0.6479,
+   "null_17_8_median": 0.6144,
+   "null_q05_q95": [
+    0.5482,
+    0.6792
+   ],
+   "P_null_le_obs": 0.7915,
+   "n_points_in_grid": 149179,
+   "x3_json_obs18": 0.6479,
+   "x3_json_null_med": 0.6144
+  },
+  "circ": {
+   "split2018": 0.8281,
+   "split2016": 0.8318,
+   "split2018_level5": 0.9215,
+   "split2018_level15": 0.6577,
+   "split2018_without_malvinas_exclusion": 0.8295,
+   "null_17_8_median": 0.8504,
+   "null_q05_q95": [
+    0.8352,
+    0.8642
+   ],
+   "P_null_le_obs": 0.0075,
+   "n_points_in_grid": 1152121,
+   "x3_json_obs18": 0.8295,
+   "x3_json_null_med": 0.8502
+  }
+ },
+ "checks": {
+  "fixed_drake_c06a_split2016": 0.8291,
+  "fixed_drake_c06a_split2018": 0.7306,
+  "x3_drake_density_equals_raw_c06a": true,
+  "fixed_circ_from_x3_grids_split2018": 0.765,
+  "x3_circ_all_equals_17_8_weighted_early_late": true,
+  "note": "x3_density_*.npz are the RAW (unsmoothed) fixed-threshold densities (Drake identical to c06a; circumpolar 'all' identical to drake/dk14 'all'); obs18 of x3_overlap_2018split.json for drake and circ_P1 is the relative-threshold value (reproduced here from x7 without the Malvinas exclusion), as its own 'note' field says; x3/README.txt is out of date on this point. The fixed-threshold circumpolar points exist here only for months 0-29 (c07a_points_000.npy), so its split-2018 IoU is taken from the x3 grids."
+ }
+}

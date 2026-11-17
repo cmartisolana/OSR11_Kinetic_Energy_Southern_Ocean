@@ -203,8 +203,30 @@ def sig_handles(series_colors, markers=None, ns_label="open: p ≥ 0.05", ms=3.4
 
 
 # ---------------------------------------------------------------- maps
+_NE_DIR = None
+
+
+def local_natural_earth():
+    """Make cartopy read the Natural Earth land shapefiles shipped in <repo>/natural_earth/physical (no download).
+
+    cartopy looks for <data dir>/shapefiles/natural_earth/physical/*.shp, so the shipped folder is linked into a temporary
+    directory with that layout. Does nothing when the folder is absent (cartopy then downloads the files on first use)."""
+    global _NE_DIR
+    import cartopy
+    from osr11 import paths as _paths
+    src = _paths.ROOT / "natural_earth" / "physical"
+    if _NE_DIR is None and src.is_dir():
+        import tempfile
+        d = Path(tempfile.mkdtemp(prefix="osr11_ne_")) / "shapefiles" / "natural_earth"
+        d.mkdir(parents=True); (d / "physical").symlink_to(src)
+        _NE_DIR = d.parents[1]
+        cartopy.config["pre_existing_data_dir"] = _NE_DIR; cartopy.config["data_dir"] = _NE_DIR
+    return cartopy
+
+
 def polar(ax, ccrs, cfeature, keys=True, lonlabels=True, extent_lat=-80, land=True):
     """South-polar map 80-35 S in a circle, land, dotted graticule; bathymetric keys and meridian labels OUTSIDE the rim"""
+    local_natural_earth()
     import matplotlib.path as mpath
     PC = ccrs.PlateCarree()
     ax.set_extent([-180, 180, extent_lat, -35], crs=PC)

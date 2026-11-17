@@ -1,4 +1,4 @@
-"""Table of the false-positive (size) checks for SI S4, parsed from the size-check logs (written for the publication
+"""Table of the false-positive (size) checks for SI S1.7, parsed from the size-check logs (written for the publication
 repository; the logs are text and no table was produced before).
 
 Purpose : take the last progress line of each log in outputs/stats/size_bc/ and tabulate replicates, rejection rate at 5 %

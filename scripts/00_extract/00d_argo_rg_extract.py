@@ -22,7 +22,7 @@ def rd(n): b = hdr[pos[0]:pos[0] + n]; pos[0] += n; return b
 def i4(): return struct.unpack(">i", rd(4))[0]
 def name(): n = i4(); s = rd(n).decode(); rd((4 - n % 4) % 4); return s
 def atts():
-    tag, n = i4(), i4(); out = {}
+    _tag, n = i4(), i4(); out = {}
     for _ in range(n):
         k = name(); t, m = i4(), i4(); sz = TY[t][1] * m; v = rd(sz); rd((4 - sz % 4) % 4)
         out[k] = v.decode(errors="ignore") if t == 2 else np.frombuffer(v, TY[t][0]).tolist()

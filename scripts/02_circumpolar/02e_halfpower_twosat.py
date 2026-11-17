@@ -1,7 +1,7 @@
 """Half-power baseline (200 cm2 s-2, 100 km, 25 %) on the two-satellite product (1/4 deg), same matching and
 trend test as a2_run / retest; compared with the all-satellite tracks.
 
-Purpose : half-power baseline on the two-satellite product and comparison with the all-satellite tracks (Fig. S6).
+Purpose : half-power baseline on the two-satellite product and comparison with the all-satellite tracks (Fig. S1c).
 Inputs  : $OSR11_DATA/monthly_half-power_points_two_sat/YYYY/MM.nc (01c), outputs/base/mean_adt.nc,
           outputs/a2/tracks_baseline.npz (02c), $OSR11_CACHE/lon.npy (02b/02c)
 Outputs : outputs/a2/tracks_baseline_twosat.npz, outputs/a2/a2h_twosat_vs_allsat.csv

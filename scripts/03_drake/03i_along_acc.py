@@ -12,7 +12,7 @@ Seeds   : rstats.trend_bcz default seed (0); 150 null series.
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, glob, numpy as np, pandas as pd, xarray as xr
+import numpy as np, pandas as pd, xarray as xr
 from osr11 import rstats, paths as PA
 OUT = PA.dk(8); BOX = dict(longitude=slice(-112, -18), latitude=slice(-66, -44))
 adt = xr.open_dataset(PA.CLIM).adt.sel(**BOX)

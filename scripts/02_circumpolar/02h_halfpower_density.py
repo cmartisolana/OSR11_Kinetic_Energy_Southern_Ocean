@@ -11,8 +11,7 @@ Run     : python scripts/02_circumpolar/02h_halfpower_density.py
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, numpy as np, xarray as xr
-from pathlib import Path
+import numpy as np, xarray as xr
 from osr11 import fronts as F, paths as PA
 OUT = PA.dk(14)
 FI = {k: i for i, k in enumerate(F.FIELDS)}; P = dict(thr=0.02, min_w=100.0, frac=0.25); MAXE = 8

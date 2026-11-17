@@ -1,0 +1,37 @@
+section-mean ADT (always ice-free points, 58 of 121): Theil-Sen rise 1.84 cm per decade; total over the record 4.6 cm; bin widths 5-15 cm
+reproduction of dk5_trends (slope per decade here vs 10 x reported per-year slope):
+ bin_psic  slope_dec  rep_dec     p  rep_p        kind
+   -0.250     -3.585   -3.585 0.033  0.023 annual n=25
+   -0.350     -0.128   -0.516 0.861  0.648     monthly
+   -0.450     -2.575   -2.348 0.073  0.073     monthly
+   -0.550     -1.016   -1.076 0.417  0.512     monthly
+   -0.650      2.943      NaN 0.099    NaN     monthly
+   -0.750      5.379    5.205 0.020  0.013     monthly
+   -0.850      2.904      NaN 0.060    NaN     monthly
+   -0.950      0.234    0.372 0.768  0.734     monthly
+   -1.075     -0.148   -0.148 0.954  0.927 annual n=25
+   -1.200     -0.262   -0.262 0.921  0.900 annual n=25
+   -1.300     -1.067   -1.029 0.258  0.289 annual n=25
+   -1.400     -2.397   -2.116 0.192  0.286 annual n=25
+   -1.475     -1.735   -1.330 0.033  0.037 annual n=25
+   -1.525      0.294    0.301 0.775  0.738 annual n=25
+   -1.575     -0.049      NaN 0.967    NaN annual n=25
+   -1.625     -2.725   -2.930 0.007  0.003 annual n=25
+   -1.675     -0.738      NaN 0.391    NaN annual n=22
+bin psi -0.250 (ADT +0.31..+0.42): fixed -3.59 [-6.62,-0.55] p=0.033 | rise-following -2.10 [-5.05,+0.86] p=0.132 | anomaly-following -1.75 p=0.272
+bin psi -0.350 (ADT +0.21..+0.31): fixed -0.13 [-2.58,+2.32] p=0.861 | rise-following -1.10 [-3.47,+1.27] p=0.358 | anomaly-following -0.85 p=0.477
+bin psi -0.450 (ADT +0.10..+0.21): fixed -2.57 [-5.21,+0.06] p=0.073 | rise-following -2.22 [-4.94,+0.51] p=0.132 | anomaly-following -2.60 p=0.060
+bin psi -0.550 (ADT +0.00..+0.10): fixed -1.02 [-3.90,+1.87] p=0.417 | rise-following +0.51 [-2.01,+3.02] p=0.576 | anomaly-following +1.07 p=0.252
+bin psi -0.650 (ADT -0.10..+0.00): fixed +2.94 [-0.36,+6.25] p=0.099 | rise-following +3.63 [+0.40,+6.85] p=0.046 | anomaly-following +3.96 p=0.020
+bin psi -0.750 (ADT -0.21..-0.10): fixed +5.38 [+2.07,+8.69] p=0.020 | rise-following +5.04 [+1.44,+8.64] p=0.026 | anomaly-following +4.35 p=0.040
+bin psi -0.850 (ADT -0.31..-0.21): fixed +2.90 [+0.00,+5.81] p=0.060 | rise-following +3.02 [+0.06,+5.98] p=0.060 | anomaly-following +2.56 p=0.093
+bin psi -0.950 (ADT -0.41..-0.31): fixed +0.23 [-2.16,+2.63] p=0.768 | rise-following +0.23 [-2.21,+2.67] p=0.781 | anomaly-following +0.18 p=0.854
+bin psi -1.075 (ADT -0.57..-0.41): fixed -0.15 [-3.47,+3.17] p=0.954 | rise-following -0.02 [-3.14,+3.10] p=0.993 | anomaly-following -0.18 p=0.940
+bin psi -1.200 (ADT -0.67..-0.57): fixed -0.26 [-3.84,+3.32] p=0.921 | rise-following -0.24 [-3.94,+3.45] p=0.921 | anomaly-following +0.04 p=0.993
+bin psi -1.300 (ADT -0.78..-0.67): fixed -1.07 [-2.85,+0.71] p=0.258 | rise-following -0.45 [-2.05,+1.15] p=0.642 | anomaly-following -0.96 p=0.490
+bin psi -1.400 (ADT -0.88..-0.78): fixed -2.40 [-6.24,+1.45] p=0.192 | rise-following +1.58 [-2.29,+5.45] p=0.371 | anomaly-following +3.21 p=0.185
+bin psi -1.475 (ADT -0.93..-0.88): fixed -1.74 [-3.03,-0.44] p=0.033 | rise-following +0.66 [-1.58,+2.90] p=0.589 | anomaly-following +0.11 p=0.894
+bin psi -1.525 (ADT -0.98..-0.93): fixed +0.29 [-1.37,+1.96] p=0.775 | rise-following -2.00 [-3.48,-0.51] p=0.033 | anomaly-following -2.73 p=0.073
+bin psi -1.575 (ADT -1.03..-0.98): fixed -0.05 [-1.59,+1.49] p=0.967 | rise-following -2.67 [-4.28,-1.06] p=0.007 | anomaly-following -1.87 p=0.079
+bin psi -1.625 (ADT -1.09..-1.03): fixed -2.73 [-4.14,-1.31] p=0.007 | rise-following -0.11 [-1.63,+1.41] p=0.887 | anomaly-following +0.24 p=0.748
+bin psi -1.675 (ADT -1.14..-1.09): fixed -0.74 [-2.68,+1.21] p=0.391 | rise-following -0.43 [-2.00,+1.13] p=0.497 | anomaly-following +0.92 p=0.457

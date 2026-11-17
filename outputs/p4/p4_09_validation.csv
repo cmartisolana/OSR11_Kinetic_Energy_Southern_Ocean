@@ -1,0 +1,41 @@
+check,here,reference,abs_diff
+P1 relthr circumpolar lat_hp slope vs x7_trends.csv,2.5886820111319486,2.5886971963608563,1.5185228907643733e-05
+P1 relthr circumpolar lat_hp lo vs x7_trends.csv,-5.949453790590694,-5.949432279501593,2.1511089101089453e-05
+P1 relthr circumpolar lat_hp hi vs x7_trends.csv,11.126817812854593,11.126826672223306,8.859368712421656e-06
+P1 relthr circumpolar lat_hp p vs x7_trends.csv,0.4584717607973422,0.4584717607973422,0.0
+P1 relthr circumpolar lat_hp n_tracks vs x7_trends.csv,1826.0,1826.0,0.0
+P1 relthr circumpolar lat_contour slope vs x7_trends.csv,-16.244011996007217,-16.24401912203637,7.126029153425861e-06
+P1 relthr circumpolar lat_contour lo vs x7_trends.csv,-21.361930848891866,-21.361946051340336,1.5202448469864294e-05
+P1 relthr circumpolar lat_contour hi vs x7_trends.csv,-11.126093143122562,-11.1260921927324,9.503901612362142e-07
+P1 relthr circumpolar lat_contour p vs x7_trends.csv,0.0033222591362126247,0.0033222591362126,2.47198095326695e-17
+P1 relthr circumpolar lat_contour n_tracks vs x7_trends.csv,1826.0,1826.0,0.0
+P1 relthr 86-40W lat_hp slope vs x7_trends.csv,6.2213924525396695,6.221391328350077,1.1241895929714474e-06
+P1 relthr 86-40W lat_hp lo vs x7_trends.csv,-8.284153540774915,-8.284154897459608,1.3566846934764953e-06
+P1 relthr 86-40W lat_hp hi vs x7_trends.csv,20.726938445854252,20.72693755415976,8.916944906900426e-07
+P1 relthr 86-40W lat_hp p vs x7_trends.csv,0.3388704318936877,0.3388704318936877,0.0
+P1 relthr 86-40W lat_hp n_tracks vs x7_trends.csv,216.0,216.0,0.0
+P1 relthr 86-40W lat_contour slope vs x7_trends.csv,-18.19892588160901,-18.198926137185257,2.555762463885003e-07
+P1 relthr 86-40W lat_contour lo vs x7_trends.csv,-25.179310387362715,-25.179304676514576,5.710848139273139e-06
+P1 relthr 86-40W lat_contour hi vs x7_trends.csv,-11.218541375855304,-11.218547597855933,6.222000628497426e-06
+P1 relthr 86-40W lat_contour p vs x7_trends.csv,0.0033222591362126247,0.0033222591362126,2.47198095326695e-17
+P1 relthr 86-40W lat_contour n_tracks vs x7_trends.csv,216.0,216.0,0.0
+P4 fixed-threshold circumpolar lat_hp slope vs a2h two-sat,0.05337136476122857,0.2034993016453816,0.15012793688415305
+P4 fixed-threshold circumpolar lat_hp lo vs a2h two-sat,-3.4120681449624364,-3.196225921223691,0.21584222373874518
+P4 fixed-threshold circumpolar lat_hp hi vs a2h two-sat,3.518810874484894,3.603224524514454,0.08441365002956003
+P4 fixed-threshold circumpolar lat_hp p vs a2h two-sat,0.9833887043189369,0.9069767441860463,0.07641196013289053
+P4 fixed-threshold circumpolar lat_hp n_tracks vs a2h two-sat,400.0,400.0,0.0
+P4 fixed-threshold Pacific lat_hp slope vs a2h two-sat,-0.07099947990002689,0.3016640237435011,0.37266350364352796
+P4 fixed-threshold Pacific lat_hp lo vs a2h two-sat,-6.453980757206258,-6.054063622538152,0.3999171346681063
+P4 fixed-threshold Pacific lat_hp hi vs a2h two-sat,6.3119817974062045,6.657391670025154,0.3454098726189496
+P4 fixed-threshold Pacific lat_hp p vs a2h two-sat,0.9800664451827242,0.903654485049834,0.0764119601328902
+P4 fixed-threshold Pacific lat_hp n_tracks vs a2h two-sat,141.0,141.0,0.0
+P4 fixed-threshold Atlantic lat_hp slope vs a2h two-sat,3.1253945947282897,3.339139815797072,0.21374522106878224
+P4 fixed-threshold Atlantic lat_hp lo vs a2h two-sat,-6.71019310229565,-6.400377484339016,0.3098156179566338
+P4 fixed-threshold Atlantic lat_hp hi vs a2h two-sat,12.96098229175223,13.07865711593316,0.1176748241809289
+P4 fixed-threshold Atlantic lat_hp p vs a2h two-sat,0.45514950166112955,0.4285714285714285,0.02657807308970106
+P4 fixed-threshold Atlantic lat_hp n_tracks vs a2h two-sat,95.0,95.0,0.0
+P4 fixed-threshold Indian lat_hp slope vs a2h two-sat,-2.576613304652514,-2.576614007050427,7.02397913165953e-07
+P4 fixed-threshold Indian lat_hp lo vs a2h two-sat,-8.554892896732916,-8.554893700451617,8.037187004816815e-07
+P4 fixed-threshold Indian lat_hp hi vs a2h two-sat,3.401666287427887,3.401665686350763,6.010771240738677e-07
+P4 fixed-threshold Indian lat_hp p vs a2h two-sat,0.33222591362126247,0.3322259136212624,5.551115123125783e-17
+P4 fixed-threshold Indian lat_hp n_tracks vs a2h two-sat,164.0,164.0,0.0

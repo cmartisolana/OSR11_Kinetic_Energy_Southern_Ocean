@@ -12,7 +12,7 @@ Purpose : one calibrated test (rstats.trend_bcz: bias-corrected AR surrogates, 3
             A7        relative EKE trend downstream of topography vs rest (p = 0.95)    outputs/a7/*
             CONTRAST  EKE-KE relative-trend contrasts (ACC +3.0 points per decade, p = 0.060)  outputs/a5/*, outputs/a6/a6b_*
           The families A6 (withdrawn transport proxies), B1 (meander paths) and LIU (Liu et al. reproduction) are archived;
-          their retest_*.csv files are in archive/ and no longer enter retest_summary.csv (05b).
+          their retest_*.csv files are not distributed and no longer enter retest_summary.csv (05b).
           The 'old_p' column of CONTRAST rows is read from the superseded outputs/stats/contrast_tests.csv when it exists; that
           file is not distributed (it held an older test, p = 0.0099), so on a fresh run old_p is NaN. old_p is a reference
           column only and is never quoted.

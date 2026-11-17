@@ -21,7 +21,6 @@ import argparse
 import sys
 from pathlib import Path
 
-import xarray as xr
 
 try:
     import copernicusmarine

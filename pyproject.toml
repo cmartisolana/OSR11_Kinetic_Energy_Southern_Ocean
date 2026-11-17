@@ -12,3 +12,15 @@ authors = [{name = "Cristina Martí-Solana", email = "cmarti@imedea.uib-csic.es"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.ruff]
+line-length = 140
+extend-exclude = ["archive"]
+
+[tool.ruff.lint]
+# pyflakes rules only; F403/F405 are the deliberate `from osr11.style import *` of the figure scripts
+select = ["F"]
+ignore = ["F403", "F405"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

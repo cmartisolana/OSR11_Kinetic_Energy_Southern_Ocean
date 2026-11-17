@@ -15,8 +15,7 @@ Run     : python scripts/04_wind_argo/04a_isopycnal_depth.py
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, glob, os, struct
-from pathlib import Path
+import glob, os, struct
 import numpy as np, pandas as pd, xarray as xr, gsw
 from scipy import stats
 from osr11 import paths as PA
@@ -52,7 +51,7 @@ def nc3(F, keys):
 def years_from_ext():
     fl = sorted(glob.glob(str(ARG / "RG_ArgoClim_20*.nc")))
     if not fl: return
-    js = None; byy = {}
+    byy = {}
     for f in fl:
         y = int(os.path.basename(f)[12:16]); byy.setdefault(y, []).append(f)
     for y, ff in sorted(byy.items()):

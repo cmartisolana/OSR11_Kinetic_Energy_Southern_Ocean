@@ -1,0 +1,8 @@
+[as Hogg et al. (2015): not detrended] Pacific  : r at 0/1/2/3/4 yr = +0.30, +0.43, +0.27, +0.15, +0.02 | max r +0.43 at 10 months (pointwise p 0.008, family-wise p 0.057)
+[as Hogg et al. (2015): not detrended] Indian   : r at 0/1/2/3/4 yr = +0.36, +0.39, +0.24, +0.03, -0.06 | max r +0.45 at 6 months (pointwise p 0.018, family-wise p 0.122)
+[as Hogg et al. (2015): not detrended] Atlantic : r at 0/1/2/3/4 yr = +0.26, +0.28, +0.08, -0.18, +0.15 | max r +0.30 at 7 months (pointwise p 0.188, family-wise p 0.712)
+[as Hogg et al. (2015): not detrended] ACC band : r at 0/1/2/3/4 yr = +0.35, +0.31, +0.15, +0.02, +0.01 | max r +0.37 at 3 months (pointwise p 0.061, family-wise p 0.243)
+[both detrended] Pacific  : r at 0/1/2/3/4 yr = +0.01, +0.15, +0.10, +0.10, +0.03 | max r +0.16 at 9 months (pointwise p 0.258, family-wise p 0.834)
+[both detrended] Indian   : r at 0/1/2/3/4 yr = +0.11, +0.08, +0.03, -0.09, -0.11 | max r +0.24 at 5 months (pointwise p 0.312, family-wise p 0.923)
+[both detrended] Atlantic : r at 0/1/2/3/4 yr = +0.04, +0.02, -0.12, -0.31, +0.18 | max r +0.18 at 48 months (pointwise p 0.472, family-wise p 0.992)
+[both detrended] ACC band : r at 0/1/2/3/4 yr = +0.08, -0.11, -0.16, -0.13, +0.00 | max r +0.09 at 2 months (pointwise p 0.667, family-wise p 1.000)

@@ -1,0 +1,3 @@
+KE: max r +0.57 at 9 months (95 % range of lag 5-19); pointwise p 0.002, family-wise p 0.009; r at 0/12/24/36 = +0.08/+0.49/+0.05/-0.05; pointwise-significant lags: 4,5,6,7,8,9,10,11,12,13,14
+EKE: max r +0.47 at 11 months (95 % range of lag 8-23); pointwise p 0.019, family-wise p 0.113; r at 0/12/24/36 = -0.07/+0.47/+0.16/+0.05; pointwise-significant lags: 8,9,10,11,12,13,14
+slope: max r +0.18 at 19 months (95 % range of lag 6-36); pointwise p 0.423, family-wise p 0.921; r at 0/12/24/36 = -0.05/+0.14/+0.10/+0.08; pointwise-significant lags: 

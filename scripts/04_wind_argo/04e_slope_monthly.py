@@ -13,16 +13,15 @@ Tests (specification fixed before results):
     circular shifts.
  M4 consistency: r between the annual means of the monthly domain series and the annual f4 series.
 
-Purpose : monthly sigma0 = 27.3 cross-stream slope on the fixed domain; domain, sector and 5-deg trends (Sect. 3.3, SI S5).
+Purpose : monthly sigma0 = 27.3 cross-stream slope on the fixed domain; domain, sector and 5-deg trends (Sect. 3.3, SI S1.5).
 Inputs  : $ARGO_RG_DIR (00d), outputs/f4/f4_tilt_maps.nc, f4_regional_series.npz (04c), outputs/f4/f4d_eke_bins.csv (04d)
-Outputs : outputs/f4m/f4m_p273_monthly.npz (8.8 MB cache; input of 04f, 04g), f4m_results.csv (sector values, SI S5), f4m_series.npz, f4m_lon5_trends.csv
+Outputs : outputs/f4m/f4m_p273_monthly.npz (8.8 MB cache; input of 04f, 04g), f4m_results.csv (sector values, SI S1.5), f4m_series.npz, f4m_lon5_trends.csv
 Run     : python scripts/04_wind_argo/04e_slope_monthly.py
 Seeds   : trend_bcz seed 0.
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys, glob, os, struct
-from pathlib import Path
+import glob, os, struct
 import numpy as np, pandas as pd, xarray as xr, gsw
 
 from osr11 import rstats as R, paths as PA  # noqa: E402

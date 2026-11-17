@@ -13,7 +13,6 @@ Baseline (D1, fixed before any trend was computed): 200 cm2 s-2, 100 km, 25 %.
 
 from __future__ import annotations
 
-from pathlib import Path
 
 import numpy as np
 import pandas as pd

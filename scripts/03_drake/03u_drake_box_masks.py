@@ -16,8 +16,6 @@ Seeds   : rstats defaults (seed=0).
 """
 import sys as _sys; from pathlib import Path as _Path  # noqa: E401,E702
 _sys.path.insert(0, str(_Path(__file__).resolve().parents[2] / "src"))  # repository src/ (package osr11)
-import sys
-from pathlib import Path
 import numpy as np, pandas as pd, xarray as xr
 
 from osr11 import rstats as R, paths as PA

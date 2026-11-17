@@ -1,4 +1,4 @@
-"""Purpose : false-positive rate of the sieve / calibrated tests on trend-free monthly AR(1) series with a seasonal cycle (SI S4).
+"""Purpose : false-positive rate of the sieve / calibrated tests on trend-free monthly AR(1) series with a seasonal cycle (SI S1.7).
 Inputs  : none (synthetic)
 Outputs : outputs/stats/size_phi<phi>.npy; progress printed (redirect to a log)
 Run     : python scripts/05_stats/05e_size_monthly.py 0.8 200 0 > outputs/stats/size_phi0.8.log

@@ -15,8 +15,8 @@ environment variable (documented in README.md):
 
 Layout under OUT (one folder per analysis step, names kept from the working repository):
     base/      mean_adt.nc, sea_ice_mask.nc, clim_allsat.nc, bathymetry_so.nc
-    a1 a2 a3 a5 retest stats x1 m1 d1 f3w f4 f4m f4e f4s ...
-    drake/dkN  Drake Passage steps (dk1 ... dk40)
+    a1 a2 a3 a5 retest stats x1 m1 d1 f3w f4 f4m f4e f4s x6 x7 x9-x14 s6 c04 p4 ... (outputs/README.md)
+    drake/dkN  Drake Passage steps (dk1 ... dk39)
 """
 from __future__ import annotations
 
