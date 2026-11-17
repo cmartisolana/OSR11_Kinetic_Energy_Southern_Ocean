@@ -1,4 +1,5 @@
 # Observational constraints on eddy saturation in the Antarctic Circumpolar Current
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21485763.svg)](https://doi.org/10.5281/zenodo.21485763)
 
 Analysis code, processed outputs, figures and notebooks for
 
